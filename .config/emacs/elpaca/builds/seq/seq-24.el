@@ -1,0 +1,1 @@
+/home/cowboy/.config/emacs/elpaca/repos/seq/seq-24.el

@@ -1,0 +1,1967 @@
+# You can edit this file by hand, but it's recommended not to do that.
+
+# Marks:
+'H
+	/home/cowboy/
+	..
+1638978106
+'b
+	/home/cowboy/bin/
+	..
+1638978106
+'h
+	/home/cowboy/
+	..
+1638978106
+'u
+	/home/cowboy/.config
+	tmux
+1645461674
+
+# Bookmarks:
+
+# TUI:
+al
+q0
+v2
+ov
+m-1
+l2
+r2
+
+# Left window history (oldest to newest):
+d/home/cowboy/Documents/Py/Amulet/env
+	lib
+3
+d/home/cowboy/Documents/Py/Amulet
+	env
+3
+d/home/cowboy/Documents/Py/Amulet/env
+	lib
+3
+d/home/cowboy/Documents/Py/Amulet/env/lib
+	python3.9
+1
+d/home/cowboy/Documents/Py/Amulet/env
+	lib
+3
+d/home/cowboy/Documents/Py/Amulet/env/lib
+	python3.9
+1
+d/home/cowboy/Documents/Py/Amulet/env/lib/python3.9
+	site-packages
+1
+d/home/cowboy/Documents/Py/Amulet/env/lib/python3.9/site-packages
+	amulet
+9
+d/home/cowboy/Documents/Py/Amulet/env/lib/python3.9
+	site-packages
+1
+d/home/cowboy/Documents/Py/Amulet/env/lib
+	python3.9
+1
+d/home/cowboy/Documents/Py/Amulet/env
+	lib
+3
+d/home/cowboy/Documents/Py/Amulet
+	env
+3
+d/home/cowboy/Documents/Py
+	Amulet
+1
+d/home/cowboy/Documents/Py/Amulet
+	env
+3
+d/usr/bin
+	python3
+26
+d/usr
+	share
+12
+d/usr/share
+	python3
+26
+d/usr/share/python3
+	bcep
+2
+d/usr/share
+	python3
+26
+d/usr
+	share
+12
+d/home/cowboy
+	.minecraft
+4
+d/home/cowboy/.minecraft
+	ModSkyBlock
+3
+d/home/cowboy/.minecraft/ModSkyBlock
+	mods
+7
+d/home/cowboy/.minecraft/ModSkyBlock/mods
+	malilib-fabric-1.18.2-0.12.1.jar
+16
+d/home/cowboy/.minecraft/ModSkyBlock
+	saves
+11
+d/home/cowboy/.minecraft/ModSkyBlock/saves
+	New World
+1
+d/home/cowboy/.minecraft/ModSkyBlock/saves/New World
+	stats
+11
+d/home/cowboy/.minecraft/ModSkyBlock/saves
+	New World
+1
+d/home/cowboy/.minecraft/ModSkyBlock
+	mods
+7
+d/home/cowboy/.minecraft/ModSkyBlock/mods
+	malilib-fabric-1.18.2-0.12.1.jar
+17
+d/home/cowboy/Documents/Rust
+	..
+0
+d/home/cowboy/Documents
+	Rust
+6
+d/home/cowboy
+	.minecraft
+4
+d/home/cowboy/.minecraft
+	ModSkyBlock
+3
+d/home/cowboy/.minecraft/ModSkyBlock
+	schematics
+12
+d/home/cowboy/.minecraft/ModSkyBlock/schematics
+	Tiny_Iron_Farm.litematic
+25
+d/home/cowboy/.minecraft/ModSkyBlock
+	schematics
+12
+d/home/cowboy/.minecraft
+	ModSkyBlock
+3
+d/home/cowboy
+	Downloads
+26
+d/home/cowboy/Downloads
+	Tiny_Iron_Farm.dat
+9
+d/home/cowboy
+	Documents
+19
+d/home/cowboy/Documents
+	cnffjbeqf.md
+20
+d/home/cowboy
+	Aur
+17
+d/home/cowboy/Aur
+	talon
+10
+d/home/cowboy/Aur/talon
+	run.sh
+4
+d/home/cowboy/Aur
+	idea
+5
+d/home/cowboy/Aur/idea
+	bin
+1
+d/home/cowboy/Aur/idea/bin
+	..
+0
+d/home/cowboy
+	Documents
+19
+d/home/cowboy/Documents
+	Wallpapers
+4
+d/home/cowboy/.minecraft/SkyBlock
+	logs
+5
+d/home/cowboy/.minecraft/SkyBlock/logs
+	latest.log
+14
+d/home/cowboy/.minecraft/SkyBlock
+	mods_lkjkl
+7
+d/home/cowboy/.minecraft
+	SkyBlock
+6
+d/home/cowboy/.minecraft/SkyBlock
+	.fabric
+1
+d/home/cowboy/.minecraft/SkyBlock/.fabric
+	..
+0
+d/home/cowboy/.minecraft/SkyBlock
+	mods_lkjkl
+7
+d/home/cowboy/.minecraft/SkyBlock/mods_lkjkl
+	other
+1
+d/home/cowboy/.minecraft/SkyBlock/mods_lkjkl/other
+	RoughlyEnoughItems-5.7.0.jar
+1
+d/home/cowboy/.minecraft/SkyBlock/mods_lkjkl
+	other
+1
+d/home/cowboy/.minecraft/SkyBlock/mods_lkjkl/other
+	replaymod-1.16.3-2.4.5.jar
+10
+d/home/cowboy/.minecraft/SkyBlock/mods_lkjkl
+	other
+1
+d/home/cowboy/.minecraft/SkyBlock
+	mods_lkjkl
+7
+d/home/cowboy/.minecraft
+	SkyBlock
+6
+d/home/cowboy/.minecraft/SkyBlock
+	mods_lkjkl
+7
+d/home/cowboy/.minecraft
+	SkyBlock
+6
+d/home/cowboy/.minecraft/SkyBlock
+	mods_lkjkl
+7
+d/home/cowboy/.minecraft
+	assets
+7
+d/home/cowboy/.minecraft/assets
+	..
+0
+d/home/cowboy/.minecraft
+	SkyBlock
+6
+d/home/cowboy/.minecraft/SkyBlock
+	mods
+6
+d/home/cowboy/.minecraft/SkyBlock/mods
+	..
+0
+d/home/cowboy/.minecraft/SkyBlock
+	mods_lkjkl
+7
+d/home/cowboy/.minecraft/SkyBlock/mods_lkjkl
+	other
+1
+d/home/cowboy/.minecraft/SkyBlock
+	mods
+6
+d/home/cowboy/.minecraft/SkyBlock/mods
+	..
+0
+d/home/cowboy/.minecraft/SkyBlock
+	logs
+5
+d/home/cowboy/.minecraft/SkyBlock/logs
+	latest.log
+18
+d/home/cowboy/.minecraft/SkyBlock
+	crash-reports
+4
+d/home/cowboy/.minecraft/SkyBlock/crash-reports
+	crash-2022-01-22_07.13.18-client.txt
+1
+d/home/cowboy/.minecraft/SkyBlock
+	mods
+4
+d/home/cowboy/.minecraft/SkyBlock/mods
+	other
+1
+d/home/cowboy/.minecraft/SkyBlock/mods/other
+	RoughlyEnoughItems-5.7.0.jar
+2
+d/home/cowboy/.minecraft/SkyBlock/mods
+	other
+1
+d/home/cowboy/.minecraft/SkyBlock/mods/other
+	optifabric-1.7.0.jar
+2
+d/home/cowboy/.minecraft/SkyBlock/mods
+	other
+1
+d/home/cowboy/.minecraft/SkyBlock
+	saves
+9
+d/home/cowboy/.minecraft/SkyBlock/saves
+	..
+0
+d/home/cowboy/.minecraft/SkyBlock
+	saves
+9
+d/home/cowboy/Downloads
+	..
+0
+d/home/cowboy
+	.xbindkeysrc
+20
+d/home/cowboy/Documents/Bash
+	scraper.py
+2
+d/home/cowboy
+	.minecraft
+4
+d/home/cowboy/.minecraft
+	RedstoneCodeServer
+4
+d/home/cowboy/.minecraft/RedstoneCodeServer
+	mods
+8
+d/home/cowboy/.minecraft/RedstoneCodeServer/mods
+	fabric-api-0.50.01.18.2.jar
+5
+d/home/cowboy/.minecraft/RedstoneCodeServer
+	saves
+12
+d/home/cowboy/.minecraft/RedstoneCodeServer/saves
+	redstonecode_test
+8
+d/home/cowboy/.minecraft/RedstoneCodeServer
+	schematics
+13
+d/home/cowboy/.minecraft/RedstoneCodeServer/schematics
+	stroage_v0.2.0.litematic
+18
+d
+
+# Right window history (oldest to newest):
+D/home/cowboy/Downloads/procc
+	parser
+2
+D/home/cowboy/Downloads
+	cbc
+1
+D/home/cowboy/Downloads/cbc
+	parser
+2
+D/home/cowboy/Downloads
+	porth
+5
+D/home/cowboy/Downloads/porth
+	std
+6
+D/home/cowboy/Downloads
+	procc
+6
+D/home/cowboy/Downloads/procc
+	parser
+2
+D/home/cowboy/Downloads
+	cbc
+1
+D/home/cowboy/Downloads/cbc
+	parser
+2
+D/home/cowboy/Downloads/cbc/parser
+	src
+1
+D/home/cowboy/Downloads/cbc/parser/src
+	..
+0
+D/home/cowboy/Downloads/cbc/parser
+	src
+1
+D/home/cowboy/Downloads/cbc
+	parser
+2
+D/home/cowboy/Downloads/cbc/parser
+	src
+1
+D/home/cowboy/Downloads/cbc/parser/src
+	lib.rs
+3
+D/home/cowboy/Downloads/cbc/parser
+	src
+1
+D/home/cowboy/Downloads/cbc
+	scanner
+3
+D/home/cowboy/Downloads/cbc/scanner
+	src
+1
+D/home/cowboy/Downloads/cbc/scanner/src
+	lib.rs
+2
+D/home/cowboy/Downloads/cbc/scanner
+	src
+1
+D/home/cowboy/Downloads/cbc
+	parser
+2
+D/home/cowboy/Downloads/cbc/parser
+	src
+1
+D/home/cowboy/Downloads/cbc
+	parser
+2
+D/home/cowboy/Downloads
+	cbc
+1
+D/home/cowboy/Downloads/cbc
+	parser
+2
+D/home/cowboy/Downloads/cbc/parser
+	Cargo.toml
+2
+D/home/cowboy/Downloads/cbc
+	scanner
+3
+D/home/cowboy/Downloads/cbc/scanner
+	src
+1
+D/home/cowboy/Downloads/cbc/scanner/src
+	token.rs
+6
+D/home/cowboy/Downloads/cbc/scanner
+	src
+1
+D/home/cowboy/Downloads/cbc
+	parser
+2
+D/home/cowboy/Downloads/cbc/parser
+	src
+1
+D/home/cowboy/Downloads/cbc/parser/src
+	parser.rs
+4
+D/home/cowboy/Downloads/cbc/parser
+	src
+1
+D/home/cowboy/Downloads/cbc/parser/src
+	parser.rs
+4
+D/home/cowboy/Downloads/cbc/parser
+	src
+1
+D/home/cowboy/Downloads/cbc/parser/src
+	parser.rs
+4
+D/home/cowboy/Downloads/cbc/parser
+	src
+1
+D/home/cowboy/Downloads/cbc
+	parser
+2
+D/home/cowboy/Downloads/cbc/parser
+	src
+1
+D/home/cowboy/Downloads/cbc/parser/src
+	parser.rs
+4
+D/home/cowboy/Downloads/cbc/parser
+	src
+1
+D/home/cowboy/Downloads/cbc/parser/src
+	parser.rs
+4
+D/home/cowboy/Downloads/cbc/parser
+	src
+1
+D/home/cowboy/Downloads/cbc
+	scanner
+3
+D/home/cowboy/Downloads/cbc/scanner
+	src
+1
+D/home/cowboy/Downloads/cbc/scanner/src
+	scanner.rs
+3
+D/home/cowboy/Downloads/cbc/scanner
+	src
+1
+D/home/cowboy/Downloads/cbc/scanner/src
+	error.rs
+1
+D/home/cowboy/Downloads/cbc/scanner
+	src
+1
+D/home/cowboy/Downloads/cbc/scanner/src
+	scanner.rs
+3
+D/home/cowboy/Downloads/cbc/scanner
+	src
+1
+D/home/cowboy/Downloads/cbc/scanner/src
+	scanner.rs
+3
+D/home/cowboy/Downloads/cbc/scanner
+	Cargo.toml
+2
+D/home/cowboy/Downloads/cbc
+	scanner
+3
+D/home/cowboy/Downloads
+	cbc
+1
+D/home/cowboy
+	Downloads
+5
+D/home
+	cowboy
+1
+D/
+	media
+11
+D/media
+	cowboy
+1
+D/media/cowboy
+	rootfs
+2
+D/media/cowboy/rootfs
+	home
+5
+D/media/cowboy/rootfs/home
+	pi
+1
+D/media/cowboy/rootfs/home/pi
+	minecraft
+14
+D/media/cowboy/rootfs/home/pi/minecraft
+	redstonecode_world
+6
+D/media/cowboy/rootfs/home/pi/minecraft/redstonecode_world
+	advancements
+3
+D/media/cowboy
+	..
+0
+D/media
+	cowboy
+1
+D/
+	home
+5
+D/home
+	cowboy
+1
+D/home/cowboy
+	Downloads
+5
+D/home/cowboy/Downloads
+	..
+0
+D/home/cowboy
+	Aur
+4
+D/home/cowboy/Aur
+	idea
+5
+D/home/cowboy/Aur/idea
+	Install-Linux-tar.txt
+7
+D/home/cowboy/Aur
+	idea
+5
+D/home/cowboy
+	Aur
+4
+D/home
+	cowboy
+1
+D/home/cowboy
+	Downloads
+7
+D/home/cowboy/Downloads
+	balena-etcher-electron-1.7.8-linux-x64
+2
+D/home/cowboy
+	Downloads
+7
+D/home
+	cowboy
+1
+D/home/cowboy
+	.minecraft
+4
+D/home/cowboy/.minecraft
+	ModSkyBlock
+3
+D/home/cowboy/.minecraft/ModSkyBlock
+	mods
+7
+D/home/cowboy/.minecraft/ModSkyBlock/mods
+	fabric-api-0.50.01.18.2.jar
+9
+D/home/cowboy/.minecraft/ModSkyBlock
+	mods
+7
+D/home/cowboy/.minecraft
+	ModSkyBlock
+3
+D/home/cowboy
+	Downloads
+19
+D/home/cowboy/Downloads
+	input-remapper-1.4.2.deb
+4
+D/home/cowboy
+	.minecraft
+14
+D/home/cowboy/.minecraft
+	saves
+15
+D/home/cowboy/.minecraft/saves
+	..
+0
+D/home/cowboy/.minecraft
+	webcache2
+17
+D/home/cowboy/.minecraft/webcache2
+	Cache
+1
+D/home/cowboy/.minecraft
+	webcache2
+17
+D/home/cowboy
+	.terasologylauncher
+19
+D/home
+	cowboy
+1
+D/home/cowboy
+	Downloads
+19
+D/home/cowboy/Downloads
+	stroage_v0.2.0.litematic
+10
+D
+
+# Command line history (oldest to newest):
+:touch minecraft craft_iron_blocks.py
+:touch rust.rs
+:mkdir editor
+:!git init
+:!unflatten
+:!unzip slicer.zip slicer
+:jj
+:shell
+:touch memory.snack
+:cd /
+:!find rm *.asm
+:!find -h
+:touch test.py
+:!rm -rf /home/cowboy/.local/share/nvim/swap//%home%cowboy%Documents%Rust%languages%snack%test%if-elif-else.asm.swp
+:mkdir Docs
+:mkdir intel
+:to
+:mkdir old
+:ls
+:echo "Hey"
+:lang
+:!lang
+:touch combo1.c
+:touch print_same_string_twice.snack
+:cd Downloads/
+:mkdir voice
+:mkdir quickrun
+:touch README.md
+:touch match_state.rs
+:mkdir switch_state
+:touch main.c
+:mkdir tmux
+:touch tmux.conf
+:wwqa
+:!cargo new mini-parse --lib
+:touch test.rs
+:%s/out/not
+:!rm *.not
+:cd
+:!cp rust.vim haskell.vim
+:mkdir parser
+:mkdir expr
+:touch mod.rs
+:wq
+:touch load.snack
+:while
+:touch while.snack
+:touch return.snack return txt
+:touch snack-mode.el
+:touch and.txt
+:touch or.snack
+:b
+:char.snack
+:touch char.snack
+:touch foo.snack
+:touch bar.snack
+:touch type_check_func.snack
+:!./test.py
+:!cp type_check_func.snack type_check_func.txt
+:touch true.snack
+:touch false.snack
+:touch false.txt
+:touch true.txt
+:touch tictactoe.snack
+:touch mem.snack
+:touch over.snack
+:touch over.txt
+:touch add.snack
+:touch add.txt
+:touch subtraction.snack
+:touch divide.snack
+::wqa
+:touch func_return.snack
+:touch func_return.txt
+:cp main.asm args.asm
+:!cp main.asm args.asm
+:exit
+:cd Download
+:sh 
+:qw
+:touch pratt-parser.py
+:touch pratt_parser.rs
+:s
+:!cargo init pratt-parser
+:mkdir 1.18.1
+:mkdir 1.18.2
+:!wget https://github.com/jsorrell/skyblock/releases/download/1.18.2-3.1.3/skyblock-1.18.2-3.1.3.jar
+:!wget https://cdn.discordapp.com/attachments/325084288909312002/963922251495907369/advancedperipherals-1.18.2-0.7.13a.jar
+:mkdir other
+:zip -r sa
+:!zip -r saves/ save.zip
+:wqa
+:touch test.sh
+:tocuh scraper.py
+:touch tocuh scraper.py
+:sh
+:w
+:!unzip world.zip redstonecode_test
+:!unzip redstonecode_test world.zip
+:!unzip world.zip
+:q
+
+# Search history (oldest to newest):
+/apt
+/en
+/k
+/wine
+/.wine
+/snack
+/f
+/*.mp4
+/OptiFine
+/mkdir .minecraft
+/app
+/medi
+/git
+/.minecraft
+/.md
+/minecraft
+/mkdir old
+/touch main.snow
+/nv
+/java.vim
+/.mine
+/fav
+/fox
+/AS
+/sdb3
+/rm *.asm
+/kitty
+/cowboy
+/gergo
+/gboar
+/gboard
+/16
+/vscode
+/.vscode
+/vim
+/.tal
+/talon
+/emacs
+/.
+/Mu
+/A
+/cook
+/model
+/*.png
+/png
+/svg
+/.tmux
+/broot
+/select-ed
+/bro
+/todo
+/doc
+/rm *.out
+/out
+/nvim
+/.bash
+/con
+/word
+/func
+/if
+/txt
+/asm
+/true
+/print
+/over
+/touch over.snack; touch over.txt
+/and.snack
+/add
+/touch add.snack
+/sub
+/and
+/or
+/func'
+/text
+/Rust
+/lang
+/*.jpeg
+/Cbc
+/shcpcd
+/dhcp
+/tmux
+/mine
+/vifm
+/mod
+/fac
+/fab
+/discord
+/resize
+/Wind
+/image
+/Image
+/vimrc
+/idea
+/  
+/Jet
+/Doc
+/Py
+/amul
+/python
+/Ti
+/.xbin
+/.min
+/sodium
+/api
+/Down
+
+# Prompt history (oldest to newest):
+pmods_broken
+pcomputer_case.json
+pfabric-computer_nerd-1.18.2_0.0.1
+pfabric_compressed_diamonds-0.0.1-1.18.2.jar
+pmodlist.md
+pexpression.rs
+ptest.rs
+phello_world.snack
+psource_bashrc.sh
+plib.rs
+pkey-parser.rs
+pkey_parser.rs
+pvosk-model-en-us-0.22-lgraph
+ptest
+pfasm-basic.snack
+pasm.vim
+pCargo.toml
+ptest.snack
+pcustom_parser.rs
+pparser.rs
+psomegame
+psnake
+p1_18.zip
+psnow.vim
+pjava.vim
+pNode.java
+pautomatic snow farm 1_16
+pdefults.rs
+p__main__.py
+psnack.vim
+pstrings.asm
+prust.vim
+pNew folder
+pfunction_args.txt
+pstd.snack
+preturn.txt
+pand.snack
+psnack_tests
+por.snack
+por.txt
+pmain.rs
+pModSkyBlock
+pidea
+pTiny_Iron_Farm.dat
+pmods_lkjkl
+pmods
+predstonecode_test
+
+# Local filter history (oldest to newest):
+
+# Registers:
+""/home/cowboy/.local/share/vifm/Trash/000_stroage v0.2.0.litematic
+
+# Directory stack (oldest to newest):
+
+# Trash content:
+t/home/cowboy/.local/share/vifm/Trash/000_.config
+	/home/cowboy/dotfiles/.config
+t/home/cowboy/.local/share/vifm/Trash/000_installed.sh.save
+	/home/cowboy/installed.sh.save
+t/home/cowboy/.local/share/vifm/Trash/000_dotfiles
+	/home/cowboy/dotfiles
+t/home/cowboy/.local/share/vifm/Trash/000_com.mojang.Minecraft
+	/home/cowboy/.var/app/com.mojang.Minecraft
+t/home/cowboy/.local/share/vifm/Trash/000_Sprite-0001.png
+	/home/cowboy/Documents/Sprite-0001.png
+t/home/cowboy/.local/share/vifm/Trash/000_shift
+	/home/cowboy/Desktop/shift
+t/home/cowboy/.local/share/vifm/Trash/000_README.md
+	/home/cowboy/Documents/Rust/2d-book/somegame/README.md
+t/home/cowboy/.local/share/vifm/Trash/000_snake
+	/home/cowboy/.cargo/bin/snake
+t/home/cowboy/.local/share/vifm/Trash/000_fabric-installer-0.10.2(1).jar
+	/home/cowboy/Downloads/fabric-installer-0.10.2(1).jar
+t/home/cowboy/.local/share/vifm/Trash/000_Main.class
+	/home/cowboy/Documents/markdown_parser/src/Main.class
+t/home/cowboy/.local/share/vifm/Trash/000_Token.java
+	/home/cowboy/Documents/Java/markdown_parser/src/Token.java
+t/home/cowboy/.local/share/vifm/Trash/000_desktop.ini
+	/home/cowboy/.minecraft/SkyBlock/mods/desktop.ini
+t/home/cowboy/.local/share/vifm/Trash/000_2
+	/home/cowboy/Documents/Rust/languages/snow/2
+t/home/cowboy/.local/share/vifm/Trash/000_parser.rs
+	/home/cowboy/Documents/Rust/languages/snow/src/parser.rs
+t/home/cowboy/.local/share/vifm/Trash/000_automatic_snow_farm_1_16
+	/home/cowboy/.minecraft/RedstoneCodeServer/saves/automatic_snow_farm_1_16
+t/home/cowboy/.local/share/vifm/Trash/000_automatic snow farm 1_16.zip
+	/home/cowboy/.minecraft/RedstoneCodeServer/saves/automatic snow farm 1_16.zip
+t/home/cowboy/.local/share/vifm/Trash/000_'
+	/home/cowboy/Documents/Java/markdown_parser/'
+t/home/cowboy/.local/share/vifm/Trash/000_Screenshot from 2022-01-16 12-36-52.png
+	/home/cowboy/Pictures/Screenshot from 2022-01-16 12-36-52.png
+t/home/cowboy/.local/share/vifm/Trash/000_Screenshot from 2022-01-16 14-03-36.png
+	/home/cowboy/Pictures/Screenshot from 2022-01-16 14-03-36.png
+t/home/cowboy/.local/share/vifm/Trash/000_Screenshot from 2022-01-22 09-52-11.png
+	/home/cowboy/Pictures/Screenshot from 2022-01-22 09-52-11.png
+t/home/cowboy/.local/share/vifm/Trash/000_Screenshot from 2022-01-22 09-52-16.png
+	/home/cowboy/Pictures/Screenshot from 2022-01-22 09-52-16.png
+t/home/cowboy/.local/share/vifm/Trash/000_Screenshot from 2022-01-22 14-47-32.png
+	/home/cowboy/Pictures/Screenshot from 2022-01-22 14-47-32.png
+t/home/cowboy/.local/share/vifm/Trash/000_nvim
+	/home/cowboy/.config/nvim
+t/home/cowboy/.local/share/vifm/Trash/000_war_truck.zip
+	/home/cowboy/Downloads/war_truck.zip
+t/home/cowboy/.local/share/vifm/Trash/000_war_truck
+	/home/cowboy/Downloads/war_truck
+t/home/cowboy/.local/share/vifm/Trash/000_mods
+	/home/cowboy/Downloads/mods
+t/home/cowboy/.local/share/vifm/Trash/000_ggez
+	/home/cowboy/Downloads/ggez
+t/home/cowboy/.local/share/vifm/Trash/000_TerasologyLauncher-linux64-4.5.0
+	/home/cowboy/Downloads/TerasologyLauncher-linux64-4.5.0
+t/home/cowboy/.local/share/vifm/Trash/000_Fun Farms Ep 21 - Ice-20220114T193741Z-001.zip
+	/home/cowboy/Downloads/Fun Farms Ep 21 - Ice-20220114T193741Z-001.zip
+t/home/cowboy/.local/share/vifm/Trash/000_Gnembon_Simple_AFK_Ice_Farm_fixed_for_1.17.litematic
+	/home/cowboy/Downloads/Gnembon_Simple_AFK_Ice_Farm_fixed_for_1.17.litematic
+t/home/cowboy/.local/share/vifm/Trash/000_TempIceFarm.litematic
+	/home/cowboy/Downloads/TempIceFarm.litematic
+t/home/cowboy/.local/share/vifm/Trash/000_TempleOS.ISO
+	/home/cowboy/Downloads/TempleOS.ISO
+t/home/cowboy/.local/share/vifm/Trash/000_TerasologyLauncher-linux64.zip
+	/home/cowboy/Downloads/TerasologyLauncher-linux64.zip
+t/home/cowboy/.local/share/vifm/Trash/000_fabric-installer-0.10.2.jar
+	/home/cowboy/Downloads/fabric-installer-0.10.2.jar
+t/home/cowboy/.local/share/vifm/Trash/000_markdown_parser.zip
+	/home/cowboy/Downloads/markdown_parser.zip
+t/home/cowboy/.local/share/vifm/Trash/000_message.txt
+	/home/cowboy/Downloads/message.txt
+t/home/cowboy/.local/share/vifm/Trash/000_multimc_1.6-1.deb
+	/home/cowboy/Downloads/multimc_1.6-1.deb
+t/home/cowboy/.local/share/vifm/Trash/000_new_world.zip
+	/home/cowboy/Downloads/new_world.zip
+t/home/cowboy/.local/share/vifm/Trash/000_old
+	/home/cowboy/Documents/Rust/languages/snow/src/old
+t/home/cowboy/.local/share/vifm/Trash/000_test
+	/home/cowboy/Documents/Rust/terminal/pygo/test
+t/home/cowboy/.local/share/vifm/Trash/000_test-project
+	/home/cowboy/Documents/Rust/terminal/pygo/test-project
+t/home/cowboy/.local/share/vifm/Trash/000_Porth
+	/home/cowboy/Documents/Porth
+t/home/cowboy/.local/share/vifm/Trash/001_test
+	/home/cowboy/Documents/Py/stack-lang/test
+t/home/cowboy/.local/share/vifm/Trash/000_cnffjbeqf.md
+	/home/cowboy/.config/nvim/cnffjbeqf.md
+t/home/cowboy/.local/share/vifm/Trash/000___pycache__
+	/home/cowboy/Documents/Py/stack-lang/src/__pycache__
+t/home/cowboy/.local/share/vifm/Trash/000_hello
+	/home/cowboy/Downloads/fasm-1.73.29/fasm/examples/elfexe/hello
+t/home/cowboy/.local/share/vifm/Trash/000_target
+	/home/cowboy/Documents/Rust/languages/snack/target
+t/home/cowboy/.local/share/vifm/Trash/000_Cargo.lock
+	/home/cowboy/Documents/Rust/languages/snack/Cargo.lock
+t/home/cowboy/.local/share/vifm/Trash/000_s.rs
+	/home/cowboy/Documents/Rust/languages/snack/s.rs
+t/home/cowboy/.local/share/vifm/Trash/000_snack.rs
+	/home/cowboy/Documents/Rust/languages/snack/src/snack.rs
+t/home/cowboy/.local/share/vifm/Trash/000_.git
+	/home/cowboy/Documents/Rust/languages/snack/snackc/.git
+t/home/cowboy/.local/share/vifm/Trash/001_.git
+	/home/cowboy/Documents/Rust/languages/snack/gosnack/.git
+t/home/cowboy/.local/share/vifm/Trash/000_new-project
+	/home/cowboy/Documents/Rust/languages/snack/gosnack/new-project
+t/home/cowboy/.local/share/vifm/Trash/003_target
+	/home/cowboy/Documents/Rust/languages/snack/gosnack/target
+t/home/cowboy/.local/share/vifm/Trash/003_Cargo.lock
+	/home/cowboy/Documents/Rust/languages/snack/gosnack/Cargo.lock
+t/home/cowboy/.local/share/vifm/Trash/000_.gitignore
+	/home/cowboy/Documents/Rust/languages/snack/gosnack/.gitignore
+t/home/cowboy/.local/share/vifm/Trash/000_basic.rs
+	/home/cowboy/Documents/Rust/languages/snack/snackc/snack_scripts/basic.rs
+t/home/cowboy/.local/share/vifm/Trash/000_basic
+	/home/cowboy/Documents/Rust/languages/snack/snackc/snack_scripts/basic
+t/home/cowboy/.local/share/vifm/Trash/002_test
+	/home/cowboy/Documents/Rust/languages/snack/snackc/snack_scripts/test
+t/home/cowboy/.local/share/vifm/Trash/000_test.asm
+	/home/cowboy/Documents/Rust/languages/snack/snackc/snack_scripts/test.asm
+t/home/cowboy/.local/share/vifm/Trash/000_basic.asm
+	/home/cowboy/Documents/Rust/languages/snack/snackc/snack_scripts/basic.asm
+t/home/cowboy/.local/share/vifm/Trash/000_.asm
+	/home/cowboy/Documents/Rust/languages/snack/snackc/.asm
+t/home/cowboy/.local/share/vifm/Trash/000_main
+	/home/cowboy/Documents/ASM/hello-world/main
+t/home/cowboy/.local/share/vifm/Trash/000_labals
+	/home/cowboy/Documents/ASM/hello-world/labals
+t/home/cowboy/.local/share/vifm/Trash/000_arguments.rs
+	/home/cowboy/Documents/Rust/languages/snack/snackc/src/arguments.rs
+t/home/cowboy/.local/share/vifm/Trash/005_Cargo.lock
+	/home/cowboy/Documents/Rust/languages/snack/snackc/Cargo.lock
+t/home/cowboy/.local/share/vifm/Trash/005_target
+	/home/cowboy/Documents/Rust/languages/snack/snackc/target
+t/home/cowboy/.local/share/vifm/Trash/002_basic
+	/home/cowboy/Documents/Rust/languages/snack/snackc/examples/basic
+t/home/cowboy/.local/share/vifm/Trash/001_basic.rs
+	/home/cowboy/Documents/Rust/languages/snack/snackc/examples/basic.rs
+t/home/cowboy/.local/share/vifm/Trash/001_basic.asm
+	/home/cowboy/Documents/Rust/languages/snack/snackc/examples/basic.asm
+t/home/cowboy/.local/share/vifm/Trash/000_divide
+	/home/cowboy/Documents/Rust/languages/snack/snackc/examples/divide
+t/home/cowboy/.local/share/vifm/Trash/000_divide.asm
+	/home/cowboy/Documents/Rust/languages/snack/snackc/examples/divide.asm
+t/home/cowboy/.local/share/vifm/Trash/000_divide.rs
+	/home/cowboy/Documents/Rust/languages/snack/snackc/examples/divide.rs
+t/home/cowboy/.local/share/vifm/Trash/000_fasm-basic.asm
+	/home/cowboy/Documents/Rust/languages/snack/snackc/examples/fasm-basic.asm
+t/home/cowboy/.local/share/vifm/Trash/000_if-elif-else
+	/home/cowboy/Documents/Rust/languages/snack/snackc/examples/if-elif-else
+t/home/cowboy/.local/share/vifm/Trash/000_if-elif-else.asm
+	/home/cowboy/Documents/Rust/languages/snack/snackc/examples/if-elif-else.asm
+t/home/cowboy/.local/share/vifm/Trash/000_if-elif-else.rs
+	/home/cowboy/Documents/Rust/languages/snack/snackc/examples/if-elif-else.rs
+t/home/cowboy/.local/share/vifm/Trash/000_mod
+	/home/cowboy/Documents/Rust/languages/snack/snackc/examples/mod
+t/home/cowboy/.local/share/vifm/Trash/000_mod.asm
+	/home/cowboy/Documents/Rust/languages/snack/snackc/examples/mod.asm
+t/home/cowboy/.local/share/vifm/Trash/000_mod.rs
+	/home/cowboy/Documents/Rust/languages/snack/snackc/examples/mod.rs
+t/home/cowboy/.local/share/vifm/Trash/000_while
+	/home/cowboy/Documents/Rust/languages/snack/snackc/examples/while
+t/home/cowboy/.local/share/vifm/Trash/000_while.asm
+	/home/cowboy/Documents/Rust/languages/snack/snackc/examples/while.asm
+t/home/cowboy/.local/share/vifm/Trash/000_over
+	/home/cowboy/Documents/ASM/hello-world/over
+t/home/cowboy/.local/share/vifm/Trash/005_while
+	/home/cowboy/Documents/ASM/hello-world/while
+t/home/cowboy/.local/share/vifm/Trash/001_old
+	/home/cowboy/Documents/Rust/languages/snack/snackc/src/old
+t/home/cowboy/.local/share/vifm/Trash/000_build.sh
+	/home/cowboy/Documents/Rust/languages/snack/snackc/build.sh
+t/home/cowboy/.local/share/vifm/Trash/002_.git
+	/home/cowboy/Documents/Rust/languages/snack/.git
+t/home/cowboy/.local/share/vifm/Trash/000_deleteme
+	/home/cowboy/Documents/Rust/languages/snack/deleteme
+t/home/cowboy/.local/share/vifm/Trash/000_src
+	/home/cowboy/Downloads/src
+t/home/cowboy/.local/share/vifm/Trash/000_tests
+	/home/cowboy/Downloads/tests
+t/home/cowboy/.local/share/vifm/Trash/000_porth-ef407fce0fa45b6006b18ab9ecf982e271daebab
+	/home/cowboy/Downloads/porth-ef407fce0fa45b6006b18ab9ecf982e271daebab
+t/home/cowboy/.local/share/vifm/Trash/000_generate_all_colors.py
+	/home/cowboy/Downloads/generate_all_colors.py
+t/home/cowboy/.local/share/vifm/Trash/001_nvim
+	/home/cowboy/Downloads/nvim
+t/home/cowboy/.local/share/vifm/Trash/000_stack-lang.zip
+	/home/cowboy/Downloads/stack-lang.zip
+t/home/cowboy/.local/share/vifm/Trash/000_porth-ef407fce0fa45b6006b18ab9ecf982e271daebab.zip
+	/home/cowboy/Downloads/porth-ef407fce0fa45b6006b18ab9ecf982e271daebab.zip
+t/home/cowboy/.local/share/vifm/Trash/000_porth-ef407fce0fa45b6006b18ab9ecf982e271daebab(1).zip
+	/home/cowboy/Downloads/porth-ef407fce0fa45b6006b18ab9ecf982e271daebab(1).zip
+t/home/cowboy/.local/share/vifm/Trash/000_pattern_matching.zip
+	/home/cowboy/Downloads/pattern_matching.zip
+t/home/cowboy/.local/share/vifm/Trash/000_memory
+	/home/cowboy/Documents/Rust/languages/snack/snackc/examples/memory
+t/home/cowboy/.local/share/vifm/Trash/000_memory.asm
+	/home/cowboy/Documents/Rust/languages/snack/snackc/examples/memory.asm
+t/home/cowboy/.local/share/vifm/Trash/001_memory
+	/home/cowboy/Documents/ASM/hello-world/memory
+t/home/cowboy/.local/share/vifm/Trash/000_string.asm
+	/home/cowboy/Documents/Rust/languages/snack/snackc/examples/string.asm
+t/home/cowboy/.local/share/vifm/Trash/000_string
+	/home/cowboy/Documents/Rust/languages/snack/snackc/examples/string
+t/home/cowboy/.local/share/vifm/Trash/001_src
+	/home/cowboy/Documents/Rust/languages/snack/gosnack/src
+t/home/cowboy/.local/share/vifm/Trash/000_Cargo.toml
+	/home/cowboy/Documents/Rust/languages/snack/gosnack/Cargo.toml
+t/home/cowboy/.local/share/vifm/Trash/000_const
+	/home/cowboy/Documents/Rust/languages/snack/snackc/examples/const
+t/home/cowboy/.local/share/vifm/Trash/000_const.asm
+	/home/cowboy/Documents/Rust/languages/snack/snackc/examples/const.asm
+t/home/cowboy/.local/share/vifm/Trash/000_print_color
+	/home/cowboy/Documents/Rust/languages/snack/snackc/examples/print_color
+t/home/cowboy/.local/share/vifm/Trash/000_print_color.asm
+	/home/cowboy/Documents/Rust/languages/snack/snackc/examples/print_color.asm
+t/home/cowboy/.local/share/vifm/Trash/000_examples
+	/home/cowboy/Documents/Rust/languages/snack/snackc/examples
+t/home/cowboy/.local/share/vifm/Trash/000_while.snack
+	/home/cowboy/Documents/Rust/languages/snack/examples/while.snack
+t/home/cowboy/.local/share/vifm/Trash/000_const.snack
+	/home/cowboy/Documents/Rust/languages/snack/examples/const.snack
+t/home/cowboy/.local/share/vifm/Trash/000_divide.snack
+	/home/cowboy/Documents/Rust/languages/snack/examples/divide.snack
+t/home/cowboy/.local/share/vifm/Trash/000_if-elif-else.snack
+	/home/cowboy/Documents/Rust/languages/snack/examples/if-elif-else.snack
+t/home/cowboy/.local/share/vifm/Trash/000_memory.snack
+	/home/cowboy/Documents/Rust/languages/snack/examples/memory.snack
+t/home/cowboy/.local/share/vifm/Trash/000_mod.snack
+	/home/cowboy/Documents/Rust/languages/snack/examples/mod.snack
+t/home/cowboy/.local/share/vifm/Trash/000_print_color.snack
+	/home/cowboy/Documents/Rust/languages/snack/examples/print_color.snack
+t/home/cowboy/.local/share/vifm/Trash/000_basic.snack
+	/home/cowboy/Documents/Rust/languages/snack/examples/basic.snack
+t/home/cowboy/.local/share/vifm/Trash/007_if-elif-else
+	/home/cowboy/Documents/Rust/languages/snack/test/if-elif-else
+t/home/cowboy/.local/share/vifm/Trash/006_if-elif-else.asm
+	/home/cowboy/Documents/Rust/languages/snack/test/if-elif-else.asm
+t/home/cowboy/.local/share/vifm/Trash/000_proc.asm
+	/home/cowboy/Documents/Rust/languages/snack/test/proc.asm
+t/home/cowboy/.local/share/vifm/Trash/000_e .html
+	/home/cowboy/Pictures/e .html
+t/home/cowboy/.local/share/vifm/Trash/000_e _files
+	/home/cowboy/Pictures/e _files
+t/home/cowboy/.local/share/vifm/Trash/000_log.md
+	/home/cowboy/Documents/Rust/languages/snack/test/log.md
+t/home/cowboy/.local/share/vifm/Trash/000_log.ods
+	/home/cowboy/Documents/Rust/languages/snack/test/log.ods
+t/home/cowboy/.local/share/vifm/Trash/000_log2.txt
+	/home/cowboy/Documents/Rust/languages/snack/test/log2.txt
+t/home/cowboy/.local/share/vifm/Trash/000_io.inc
+	/home/cowboy/Documents/Rust/languages/snack/test/io.inc
+t/home/cowboy/.local/share/vifm/Trash/000_\
+	/home/cowboy/Documents/Rust/languages/snack/test/\
+t/home/cowboy/.local/share/vifm/Trash/001_divide
+	/home/cowboy/Documents/Rust/languages/snack/test/divide
+t/home/cowboy/.local/share/vifm/Trash/001_divide.asm
+	/home/cowboy/Documents/Rust/languages/snack/test/divide.asm
+t/home/cowboy/.local/share/vifm/Trash/003_const.asm
+	/home/cowboy/Documents/Rust/languages/snack/test/const.asm
+t/home/cowboy/.local/share/vifm/Trash/011_basic
+	/home/cowboy/Documents/Rust/languages/snack/test/basic
+t/home/cowboy/.local/share/vifm/Trash/008_while
+	/home/cowboy/Documents/Rust/languages/snack/test/while
+t/home/cowboy/.local/share/vifm/Trash/007_while.asm
+	/home/cowboy/Documents/Rust/languages/snack/test/while.asm
+t/home/cowboy/.local/share/vifm/Trash/003_const
+	/home/cowboy/Documents/Rust/languages/snack/test/const
+t/home/cowboy/.local/share/vifm/Trash/000_:q
+	/home/cowboy/.emacs.d/:q
+t/home/cowboy/.local/share/vifm/Trash/004_string
+	/home/cowboy/Documents/Rust/languages/snack/test/string
+t/home/cowboy/.local/share/vifm/Trash/005_string.asm
+	/home/cowboy/Documents/Rust/languages/snack/test/string.asm
+t/home/cowboy/.local/share/vifm/Trash/003_memory
+	/home/cowboy/Documents/Rust/languages/snack/test/memory
+t/home/cowboy/.local/share/vifm/Trash/003_memory.asm
+	/home/cowboy/Documents/Rust/languages/snack/test/memory.asm
+t/home/cowboy/.local/share/vifm/Trash/009_basic.asm
+	/home/cowboy/Documents/Rust/languages/snack/test/basic.asm
+t/home/cowboy/.local/share/vifm/Trash/001___pycache__
+	/home/cowboy/Documents/Py/LinuxTerminalSnake/__pycache__
+t/home/cowboy/.local/share/vifm/Trash/002___pycache__
+	/home/cowboy/Documents/Py/SpaceGame/__pycache__
+t/home/cowboy/.local/share/vifm/Trash/003___pycache__
+	/home/cowboy/Documents/Py/__pycache__
+t/home/cowboy/.local/share/vifm/Trash/004___pycache__
+	/home/cowboy/Documents/Py/eight-bit/src/__pycache__
+t/home/cowboy/.local/share/vifm/Trash/005___pycache__
+	/home/cowboy/Documents/Py/random_kjv/src/__pycache__
+t/home/cowboy/.local/share/vifm/Trash/000_clean
+	/home/cowboy/Documents/Rust/languages/snack/clean
+t/home/cowboy/.local/share/vifm/Trash/000_.emacs.d
+	/home/cowboy/.emacs.d
+t/home/cowboy/.local/share/vifm/Trash/000_evil-command-window.el
+	/home/cowboy/.config/emacs/evil-command-window.el
+t/home/cowboy/.local/share/vifm/Trash/000_evil-commands.el
+	/home/cowboy/.config/emacs/evil-commands.el
+t/home/cowboy/.local/share/vifm/Trash/000_evil-common.el
+	/home/cowboy/.config/emacs/evil-common.el
+t/home/cowboy/.local/share/vifm/Trash/000_evil-core.el
+	/home/cowboy/.config/emacs/evil-core.el
+t/home/cowboy/.local/share/vifm/Trash/000_evil-development.el
+	/home/cowboy/.config/emacs/evil-development.el
+t/home/cowboy/.local/share/vifm/Trash/000_evil-digraphs.el
+	/home/cowboy/.config/emacs/evil-digraphs.el
+t/home/cowboy/.local/share/vifm/Trash/000_evil-ex.el
+	/home/cowboy/.config/emacs/evil-ex.el
+t/home/cowboy/.local/share/vifm/Trash/000_evil-integration.el
+	/home/cowboy/.config/emacs/evil-integration.el
+t/home/cowboy/.local/share/vifm/Trash/000_evil-jumps.el
+	/home/cowboy/.config/emacs/evil-jumps.el
+t/home/cowboy/.local/share/vifm/Trash/000_evil-keybindings.el
+	/home/cowboy/.config/emacs/evil-keybindings.el
+t/home/cowboy/.local/share/vifm/Trash/000_evil-macros.el
+	/home/cowboy/.config/emacs/evil-macros.el
+t/home/cowboy/.local/share/vifm/Trash/000_evil-maps.el
+	/home/cowboy/.config/emacs/evil-maps.el
+t/home/cowboy/.local/share/vifm/Trash/000_evil-pkg.el
+	/home/cowboy/.config/emacs/evil-pkg.el
+t/home/cowboy/.local/share/vifm/Trash/000_evil-repeat.el
+	/home/cowboy/.config/emacs/evil-repeat.el
+t/home/cowboy/.local/share/vifm/Trash/000_evil-search.el
+	/home/cowboy/.config/emacs/evil-search.el
+t/home/cowboy/.local/share/vifm/Trash/000_evil-states.el
+	/home/cowboy/.config/emacs/evil-states.el
+t/home/cowboy/.local/share/vifm/Trash/000_evil-test-helpers.el
+	/home/cowboy/.config/emacs/evil-test-helpers.el
+t/home/cowboy/.local/share/vifm/Trash/000_evil-tests.el
+	/home/cowboy/.config/emacs/evil-tests.el
+t/home/cowboy/.local/share/vifm/Trash/000_evil-types.el
+	/home/cowboy/.config/emacs/evil-types.el
+t/home/cowboy/.local/share/vifm/Trash/000_evil-vars.el
+	/home/cowboy/.config/emacs/evil-vars.el
+t/home/cowboy/.local/share/vifm/Trash/000_evil.el
+	/home/cowboy/.config/emacs/evil.el
+t/home/cowboy/.local/share/vifm/Trash/004_.git
+	/home/cowboy/.config/emacs/evil/.git
+t/home/cowboy/.local/share/vifm/Trash/000_.github
+	/home/cowboy/.config/emacs/evil/.github
+t/home/cowboy/.local/share/vifm/Trash/000_doc
+	/home/cowboy/.config/emacs/evil/doc
+t/home/cowboy/.local/share/vifm/Trash/000_lib
+	/home/cowboy/.config/emacs/evil/lib
+t/home/cowboy/.local/share/vifm/Trash/000_scripts
+	/home/cowboy/.config/emacs/evil/scripts
+t/home/cowboy/.local/share/vifm/Trash/000_.dir-locals.el
+	/home/cowboy/.config/emacs/evil/.dir-locals.el
+t/home/cowboy/.local/share/vifm/Trash/000_.gitattributes
+	/home/cowboy/.config/emacs/evil/.gitattributes
+t/home/cowboy/.local/share/vifm/Trash/001_.gitignore
+	/home/cowboy/.config/emacs/evil/.gitignore
+t/home/cowboy/.local/share/vifm/Trash/000_CHANGES.org
+	/home/cowboy/.config/emacs/evil/CHANGES.org
+t/home/cowboy/.local/share/vifm/Trash/000_CONTRIBUTING.md
+	/home/cowboy/.config/emacs/evil/CONTRIBUTING.md
+t/home/cowboy/.local/share/vifm/Trash/000_COPYING
+	/home/cowboy/.config/emacs/evil/COPYING
+t/home/cowboy/.local/share/vifm/Trash/000_Cask
+	/home/cowboy/.config/emacs/evil/Cask
+t/home/cowboy/.local/share/vifm/Trash/000_Makefile
+	/home/cowboy/.config/emacs/evil/Makefile
+t/home/cowboy/.local/share/vifm/Trash/001_README.md
+	/home/cowboy/.config/emacs/evil/README.md
+t/home/cowboy/.local/share/vifm/Trash/000_auto-save-list
+	/home/cowboy/.config/emacs/auto-save-list
+t/home/cowboy/.local/share/vifm/Trash/000_init.el~
+	/home/cowboy/.config/emacs/init.el~
+t/home/cowboy/.local/share/vifm/Trash/000_word
+	/home/cowboy/Documents/Rust/languages/snack/test/word
+t/home/cowboy/.local/share/vifm/Trash/000_word(1)
+	/home/cowboy/Documents/Rust/languages/snack/test/word(1)
+t/home/cowboy/.local/share/vifm/Trash/000_word.asm
+	/home/cowboy/Documents/Rust/languages/snack/test/word.asm
+t/home/cowboy/.local/share/vifm/Trash/000_stringmod
+	/home/cowboy/Documents/Rust/languages/snack/test/stringmod
+t/home/cowboy/.local/share/vifm/Trash/000_253665-sdm-vol-1.pdf
+	/home/cowboy/Downloads/253665-sdm-vol-1.pdf
+t/home/cowboy/.local/share/vifm/Trash/000_325383-sdm-vol-2abcd.pdf
+	/home/cowboy/Downloads/325383-sdm-vol-2abcd.pdf
+t/home/cowboy/.local/share/vifm/Trash/000_325384-sdm-vol-3abcd.pdf
+	/home/cowboy/Downloads/325384-sdm-vol-3abcd.pdf
+t/home/cowboy/.local/share/vifm/Trash/000_335592-sdm-vol-4.pdf
+	/home/cowboy/Downloads/335592-sdm-vol-4.pdf
+t/home/cowboy/.local/share/vifm/Trash/000_debug.rs
+	/home/cowboy/Documents/Rust/languages/snow/src/debug.rs
+t/home/cowboy/.local/share/vifm/Trash/000_lexer.rs
+	/home/cowboy/Documents/Rust/languages/snow/src/lexer.rs
+t/home/cowboy/.local/share/vifm/Trash/000_lox_parser.rs
+	/home/cowboy/Documents/Rust/languages/snow/src/lox_parser.rs
+t/home/cowboy/.local/share/vifm/Trash/000_test.rs
+	/home/cowboy/Documents/Rust/languages/snow/src/test.rs
+t/home/cowboy/.local/share/vifm/Trash/000_token.rs
+	/home/cowboy/Documents/Rust/languages/snow/src/token.rs
+t/home/cowboy/.local/share/vifm/Trash/005_main
+	/home/cowboy/Documents/x86/main
+t/home/cowboy/.local/share/vifm/Trash/000_helloworld
+	/home/cowboy/Documents/x86/helloworld
+t/home/cowboy/.local/share/vifm/Trash/001_hello
+	/home/cowboy/Documents/x86/hello
+t/home/cowboy/.local/share/vifm/Trash/000_make
+	/home/cowboy/Documents/x86/make
+t/home/cowboy/.local/share/vifm/Trash/000_colors
+	/home/cowboy/Documents/Py/combinations/colors
+t/home/cowboy/.local/share/vifm/Trash/003_test
+	/home/cowboy/Documents/Rust/languages/snack/snackc/test
+t/home/cowboy/.local/share/vifm/Trash/001_test.asm
+	/home/cowboy/Documents/Rust/languages/snack/snackc/test.asm
+t/home/cowboy/.local/share/vifm/Trash/000_print_same_string_twice
+	/home/cowboy/Documents/Rust/languages/snack/test/print_same_string_twice
+t/home/cowboy/.local/share/vifm/Trash/000_print_same_string_twice.asm
+	/home/cowboy/Documents/Rust/languages/snack/test/print_same_string_twice.asm
+t/home/cowboy/.local/share/vifm/Trash/000_document.txt
+	/home/cowboy/Downloads/document.txt
+t/home/cowboy/.local/share/vifm/Trash/000_cowboy8625
+	/home/cowboy/qmk_firmware/keyboards/gergo/keymaps/cowboy8625
+t/home/cowboy/.local/share/vifm/Trash/000_model
+	/home/cowboy/Documents/Rust/languages/snack/voice/model
+t/home/cowboy/.local/share/vifm/Trash/006___pycache__
+	/home/cowboy/Documents/Rust/languages/snack/voice/__pycache__
+t/home/cowboy/.local/share/vifm/Trash/000_vosk-model-en-us-0.22-lgraph.zip
+	/home/cowboy/Documents/Rust/languages/snack/voice/vosk-model-en-us-0.22-lgraph.zip
+t/home/cowboy/.local/share/vifm/Trash/000_voice.py
+	/home/cowboy/Documents/Rust/languages/snack/voice/voice.py
+t/home/cowboy/.local/share/vifm/Trash/000_machine-learning_speech-recognition_16-122828-0002.wav
+	/home/cowboy/Documents/Rust/languages/snack/voice/machine-learning_speech-recognition_16-122828-0002.wav
+t/home/cowboy/.local/share/vifm/Trash/000_model(1)
+	/home/cowboy/Documents/Rust/languages/snack/voice/model(1)
+t/home/cowboy/.local/share/vifm/Trash/000_<space>
+	/home/cowboy/Documents/Rust/languages/snack/editor/vscode/snack/syntaxes/<space>
+t/home/cowboy/.local/share/vifm/Trash/000_crates
+	/home/cowboy/Documents/Rust/terminal/revi/crates
+t/home/cowboy/.local/share/vifm/Trash/000_plugins
+	/home/cowboy/Documents/Rust/terminal/revi/plugins
+t/home/cowboy/.local/share/vifm/Trash/000_commandline.rs
+	/home/cowboy/Documents/Rust/terminal/revi/src/commandline.rs
+t/home/cowboy/.local/share/vifm/Trash/000_main.rs
+	/home/cowboy/Documents/Rust/terminal/revi/src/main.rs
+t/home/cowboy/.local/share/vifm/Trash/000_game_one.talon
+	/home/cowboy/.talon/user/game_one.talon
+t/home/cowboy/.local/share/vifm/Trash/001_\
+	/home/cowboy/Documents/Py/bedit/\
+t/home/cowboy/.local/share/vifm/Trash/000___main__.py
+	/home/cowboy/Documents/Py/bedit/src/__main__.py
+t/home/cowboy/.local/share/vifm/Trash/000_#__main__.py#
+	/home/cowboy/Documents/Py/bedit/src/#__main__.py#
+t/home/cowboy/.local/share/vifm/Trash/008___pycache__
+	/home/cowboy/Documents/Py/bedit/src/__pycache__
+t/home/cowboy/.local/share/vifm/Trash/000___main__.py~
+	/home/cowboy/Documents/Py/bedit/src/__main__.py~
+t/home/cowboy/.local/share/vifm/Trash/000_python.toml~
+	/home/cowboy/Documents/Py/bedit/src/python.toml~
+t/home/cowboy/.local/share/vifm/Trash/000_trie.py~
+	/home/cowboy/Documents/Py/bedit/src/trie.py~
+t/home/cowboy/.local/share/vifm/Trash/009_Cargo.lock
+	/home/cowboy/Documents/Rust/gui/bedit/Cargo.lock
+t/home/cowboy/.local/share/vifm/Trash/009_target
+	/home/cowboy/Documents/Rust/gui/bedit/target
+t/home/cowboy/.local/share/vifm/Trash/000_echo.rs
+	/home/cowboy/Documents/Rust/gui/bedit/src/echo.rs
+t/home/cowboy/.local/share/vifm/Trash/010___pycache__
+	/home/cowboy/Documents/WindowsPCData/Python_Programing/__pycache__
+t/home/cowboy/.local/share/vifm/Trash/000_function
+	/home/cowboy/Documents/ASM/hello-world/function
+t/home/cowboy/.local/share/vifm/Trash/000_mem
+	/home/cowboy/Documents/ASM/hello-world/mem
+t/home/cowboy/.local/share/vifm/Trash/000_chromedriver_linux64
+	/home/cowboy/Documents/Books/audible-activator/chromedriver_linux64
+t/home/cowboy/.local/share/vifm/Trash/000_chromedriver_linux64.zip
+	/home/cowboy/Documents/Books/audible-activator/chromedriver_linux64.zip
+t/home/cowboy/.local/share/vifm/Trash/000_chromedriver
+	/home/cowboy/Documents/Books/audible-activator/chromedriver
+t/home/cowboy/.local/share/vifm/Trash/000_Audiobook
+	/home/cowboy/Documents/Books/Audiobook
+t/home/cowboy/.local/share/vifm/Trash/001_'
+	/home/cowboy/Documents/Rust/languages/snow/'
+t/home/cowboy/.local/share/vifm/Trash/000_test_test_test
+	/home/cowboy/Documents/Rust/test_projects/test_test_test
+t/home/cowboy/.local/share/vifm/Trash/000_macros.rs
+	/home/cowboy/Documents/Rust/terminal/revi/crates/revi-core/src/macros.rs
+t/home/cowboy/.local/share/vifm/Trash/000_revi-key-maps
+	/home/cowboy/Documents/Rust/terminal/revi/crates/revi-key-maps
+t/home/cowboy/.local/share/vifm/Trash/000_revi-key-parser
+	/home/cowboy/Documents/Rust/terminal/revi/crates/revi-key-parser
+t/home/cowboy/.local/share/vifm/Trash/010_target
+	/home/cowboy/Documents/Rust/basic-computer-games/89_Tic-Tac-Toe/rust/target
+t/home/cowboy/.local/share/vifm/Trash/010_Cargo.lock
+	/home/cowboy/Documents/Rust/basic-computer-games/89_Tic-Tac-Toe/rust/Cargo.lock
+t/home/cowboy/.local/share/vifm/Trash/000_██
+	/home/cowboy/Documents/Rust/terminal/counter/██
+t/home/cowboy/.local/share/vifm/Trash/013_target
+	/home/cowboy/Documents/Rust/terminal/counter/target
+t/home/cowboy/.local/share/vifm/Trash/013_Cargo.lock
+	/home/cowboy/Documents/Rust/terminal/counter/Cargo.lock
+t/home/cowboy/.local/share/vifm/Trash/000_EPIC THUNDER & RAIN _ Rainstorm Sounds For Relaxing, Focus or Sleep _ White Noise 10 Hours.f398.mp4.part
+	/home/cowboy/Documents/Music/EPIC THUNDER & RAIN _ Rainstorm Sounds For Relaxing, Focus or Sleep _ White Noise 10 Hours.f398.mp4.part
+t/home/cowboy/.local/share/vifm/Trash/000_4 hours of rain and thunder, real storm sound for good sleep _Thunderstorm #1.f315.webm.part
+	/home/cowboy/Documents/Music/4 hours of rain and thunder, real storm sound for good sleep _Thunderstorm #1.f315.webm.part
+t/home/cowboy/.local/share/vifm/Trash/000_figlet-fonts
+	/home/cowboy/figlet-fonts
+t/home/cowboy/.local/share/vifm/Trash/000_remove_fonts.sh
+	/home/cowboy/Documents/Rust/terminal/revi/remove_fonts.sh
+t/home/cowboy/.local/share/vifm/Trash/001_██
+	/home/cowboy/Documents/Rust/terminal/revi/██
+t/home/cowboy/.local/share/vifm/Trash/000_lt=last cCommand Bar, insert  17ormal Mode, READ17 <a> 17 < 
+	/home/cowboy/Documents/Rust/terminal/revi/lt=last cCommand Bar, insert  17ormal Mode, READ17 <a> 17 < 
+t/home/cowboy/.local/share/vifm/Trash/000_log
+	/home/cowboy/Documents/Rust/terminal/revi/log
+t/home/cowboy/.local/share/vifm/Trash/000_linenumber.txt
+	/home/cowboy/Documents/Rust/terminal/revi/linenumber.txt
+t/home/cowboy/.local/share/vifm/Trash/000_error
+	/home/cowboy/Documents/Rust/terminal/revi/error
+t/home/cowboy/.local/share/vifm/Trash/000_Command
+	/home/cowboy/Documents/Rust/terminal/revi/Command
+t/home/cowboy/.local/share/vifm/Trash/005_.git
+	/home/cowboy/Documents/Rust/languages/snow/.git
+t/home/cowboy/.local/share/vifm/Trash/014_Cargo.lock
+	/home/cowboy/Documents/Rust/languages/snow/Cargo.lock
+t/home/cowboy/.local/share/vifm/Trash/014_target
+	/home/cowboy/Documents/Rust/languages/snow/target
+t/home/cowboy/.local/share/vifm/Trash/002_\
+	/home/cowboy/Documents/Rust/languages/snow/src/\
+t/home/cowboy/.local/share/vifm/Trash/015_Cargo.lock
+	/home/cowboy/Documents/Rust/languages/nano_rust/Cargo.lock
+t/home/cowboy/.local/share/vifm/Trash/015_target
+	/home/cowboy/Documents/Rust/languages/nano_rust/target
+t/home/cowboy/.local/share/vifm/Trash/000_output
+	/home/cowboy/Documents/Rust/languages/snow/output
+t/home/cowboy/.local/share/vifm/Trash/000_history.txt
+	/home/cowboy/Documents/Rust/languages/snow/history.txt
+t/home/cowboy/.local/share/vifm/Trash/000_test.py
+	/home/cowboy/Documents/Rust/languages/snow/test.py
+t/home/cowboy/.local/share/vifm/Trash/000_unknown.snow
+	/home/cowboy/Documents/Rust/languages/snow/example_scripts/unknown.snow
+t/home/cowboy/.local/share/vifm/Trash/000_adding.out
+	/home/cowboy/Documents/Rust/languages/snow/example_scripts/adding.out
+t/home/cowboy/.local/share/vifm/Trash/000_do.out
+	/home/cowboy/Documents/Rust/languages/snow/example_scripts/do.out
+t/home/cowboy/.local/share/vifm/Trash/000_dolet.out
+	/home/cowboy/Documents/Rust/languages/snow/example_scripts/dolet.out
+t/home/cowboy/.local/share/vifm/Trash/000_false.out
+	/home/cowboy/Documents/Rust/languages/snow/example_scripts/false.out
+t/home/cowboy/.local/share/vifm/Trash/000_float.out
+	/home/cowboy/Documents/Rust/languages/snow/example_scripts/float.out
+t/home/cowboy/.local/share/vifm/Trash/000_function.out
+	/home/cowboy/Documents/Rust/languages/snow/example_scripts/function.out
+t/home/cowboy/.local/share/vifm/Trash/000_int.out
+	/home/cowboy/Documents/Rust/languages/snow/example_scripts/int.out
+t/home/cowboy/.local/share/vifm/Trash/000_main.out
+	/home/cowboy/Documents/Rust/languages/snow/example_scripts/main.out
+t/home/cowboy/.local/share/vifm/Trash/000_no-main.out
+	/home/cowboy/Documents/Rust/languages/snow/example_scripts/no-main.out
+t/home/cowboy/.local/share/vifm/Trash/000_simple.out
+	/home/cowboy/Documents/Rust/languages/snow/example_scripts/simple.out
+t/home/cowboy/.local/share/vifm/Trash/000_true.out
+	/home/cowboy/Documents/Rust/languages/snow/example_scripts/true.out
+t/home/cowboy/.local/share/vifm/Trash/000_two_func.out
+	/home/cowboy/Documents/Rust/languages/snow/example_scripts/two_func.out
+t/home/cowboy/.local/share/vifm/Trash/000_example_scripts
+	/home/cowboy/Documents/Rust/languages/snow/example_scripts
+t/home/cowboy/.local/share/vifm/Trash/017_Cargo.lock
+	/home/cowboy/Documents/Rust/libcrates/mini-parse/Cargo.lock
+t/home/cowboy/.local/share/vifm/Trash/018_target
+	/home/cowboy/Documents/Rust/libcrates/mini-parse/target
+t/home/cowboy/.local/share/vifm/Trash/000_]
+	/home/cowboy/Documents/Rust/languages/snow/src/repl/]
+t/home/cowboy/.local/share/vifm/Trash/002_'
+	/home/cowboy/Documents/Rust/languages/snow/src/'
+t/home/cowboy/.local/share/vifm/Trash/000_simple.snow
+	/home/cowboy/Documents/Rust/languages/snow/example_scripts/simple.snow
+t/home/cowboy/.local/share/vifm/Trash/000_snowc
+	/home/cowboy/.cargo/bin/snowc
+t/home/cowboy/.local/share/vifm/Trash/000_.bashrc
+	/home/cowboy/.bashrc
+t/home/cowboy/.local/share/vifm/Trash/003_'
+	/home/cowboy/Documents/Rust/languages/snowc/'
+t/home/cowboy/.local/share/vifm/Trash/000_x.vim
+	/home/cowboy/Documents/Rust/languages/snowc/x.vim
+t/home/cowboy/.local/share/vifm/Trash/002_history.txt
+	/home/cowboy/Documents/Rust/languages/snowc/history.txt
+t/home/cowboy/.local/share/vifm/Trash/018_Cargo.lock
+	/home/cowboy/Documents/Rust/languages/snowc/Cargo.lock
+t/home/cowboy/.local/share/vifm/Trash/019_target
+	/home/cowboy/Documents/Rust/languages/snowc/target
+t/home/cowboy/.local/share/vifm/Trash/000_adding.snow
+	/home/cowboy/Documents/Rust/languages/snowc/example_scripts/adding.snow
+t/home/cowboy/.local/share/vifm/Trash/000_do.snow
+	/home/cowboy/Documents/Rust/languages/snowc/example_scripts/do.snow
+t/home/cowboy/.local/share/vifm/Trash/000_dolet.snow
+	/home/cowboy/Documents/Rust/languages/snowc/example_scripts/dolet.snow
+t/home/cowboy/.local/share/vifm/Trash/000_false.snow
+	/home/cowboy/Documents/Rust/languages/snowc/example_scripts/false.snow
+t/home/cowboy/.local/share/vifm/Trash/000_float.snow
+	/home/cowboy/Documents/Rust/languages/snowc/example_scripts/float.snow
+t/home/cowboy/.local/share/vifm/Trash/000_function.snow
+	/home/cowboy/Documents/Rust/languages/snowc/example_scripts/function.snow
+t/home/cowboy/.local/share/vifm/Trash/000_int.snow
+	/home/cowboy/Documents/Rust/languages/snowc/example_scripts/int.snow
+t/home/cowboy/.local/share/vifm/Trash/000_main.snow
+	/home/cowboy/Documents/Rust/languages/snowc/example_scripts/main.snow
+t/home/cowboy/.local/share/vifm/Trash/000_no-main.snow
+	/home/cowboy/Documents/Rust/languages/snowc/example_scripts/no-main.snow
+t/home/cowboy/.local/share/vifm/Trash/000_true.snow
+	/home/cowboy/Documents/Rust/languages/snowc/example_scripts/true.snow
+t/home/cowboy/.local/share/vifm/Trash/000_two_func.snow
+	/home/cowboy/Documents/Rust/languages/snowc/example_scripts/two_func.snow
+t/home/cowboy/.local/share/vifm/Trash/003_\
+	/home/cowboy/Documents/Rust/languages/snowc/\
+t/home/cowboy/.local/share/vifm/Trash/000_sorting.py~
+	/home/cowboy/Documents/Py/sorting.py~
+t/home/cowboy/.local/share/vifm/Trash/000_snake.zip
+	/home/cowboy/Documents/Py/snake.zip
+t/home/cowboy/.local/share/vifm/Trash/000_hello.dmp
+	/home/cowboy/Documents/x86/hello.dmp
+t/home/cowboy/.local/share/vifm/Trash/000_helloworld.dmp
+	/home/cowboy/Documents/x86/helloworld.dmp
+t/home/cowboy/.local/share/vifm/Trash/000_helloworld.xxd
+	/home/cowboy/Documents/x86/helloworld.xxd
+t/home/cowboy/.local/share/vifm/Trash/000_main.dmp
+	/home/cowboy/Documents/x86/main.dmp
+t/home/cowboy/.local/share/vifm/Trash/000_hello_world
+	/home/cowboy/Documents/x86/hello_world
+t/home/cowboy/.local/share/vifm/Trash/000_helo
+	/home/cowboy/Documents/x86/helo
+t/home/cowboy/.local/share/vifm/Trash/000_simple
+	/home/cowboy/Documents/ASM/hello-world/simple
+t/home/cowboy/.local/share/vifm/Trash/004_\
+	/home/cowboy/Documents/Rust/languages/melt/\
+t/home/cowboy/.local/share/vifm/Trash/001_hello_world
+	/home/cowboy/Documents/Rust/languages/snack/hello_world
+t/home/cowboy/.local/share/vifm/Trash/001_test.py
+	/home/cowboy/Documents/Rust/languages/snack/test.py
+t/home/cowboy/.local/share/vifm/Trash/000_hello_world.asm
+	/home/cowboy/Documents/Rust/languages/snack/hello_world.asm
+t/home/cowboy/.local/share/vifm/Trash/000_hello_world.snack
+	/home/cowboy/Documents/Rust/languages/snack/hello_world.snack
+t/home/cowboy/.local/share/vifm/Trash/000_'_'
+	/home/cowboy/Documents/Rust/languages/snowc/'_'
+t/home/cowboy/.local/share/vifm/Trash/001_2
+	/home/cowboy/Documents/Rust/languages/snowc/2
+t/home/cowboy/.local/share/vifm/Trash/000_function_args
+	/home/cowboy/Documents/Rust/languages/snack/tests/function_args
+t/home/cowboy/.local/share/vifm/Trash/000_function_args.asm
+	/home/cowboy/Documents/Rust/languages/snack/tests/function_args.asm
+t/home/cowboy/.local/share/vifm/Trash/004_const
+	/home/cowboy/Documents/Rust/languages/snack/tests/const
+t/home/cowboy/.local/share/vifm/Trash/005_const.asm
+	/home/cowboy/Documents/Rust/languages/snack/tests/const.asm
+t/home/cowboy/.local/share/vifm/Trash/004_'
+	/home/cowboy/Documents/Rust/languages/snack/snackc/'
+t/home/cowboy/.local/share/vifm/Trash/002_hello_world
+	/home/cowboy/Documents/Rust/languages/snack/examples/hello_world
+t/home/cowboy/.local/share/vifm/Trash/001_hello_world.asm
+	/home/cowboy/Documents/Rust/languages/snack/examples/hello_world.asm
+t/home/cowboy/.local/share/vifm/Trash/001_clean
+	/home/cowboy/Documents/Rust/languages/snack/examples/clean
+t/home/cowboy/.local/share/vifm/Trash/000_uselib
+	/home/cowboy/Documents/Rust/languages/snack/snackc/uselib
+t/home/cowboy/.local/share/vifm/Trash/000_uselib.asm
+	/home/cowboy/Documents/Rust/languages/snack/snackc/uselib.asm
+t/home/cowboy/.local/share/vifm/Trash/000_uselib.snack
+	/home/cowboy/Documents/Rust/languages/snack/snackc/uselib.snack
+t/home/cowboy/.local/share/vifm/Trash/005_memory
+	/home/cowboy/Documents/Rust/languages/snack/tests/memory
+t/home/cowboy/.local/share/vifm/Trash/004_memory.asm
+	/home/cowboy/Documents/Rust/languages/snack/tests/memory.asm
+t/home/cowboy/.local/share/vifm/Trash/008_memory
+	/home/cowboy/Documents/Rust/languages/snack/examples/memory
+t/home/cowboy/.local/share/vifm/Trash/007_memory.asm
+	/home/cowboy/Documents/Rust/languages/snack/examples/memory.asm
+t/home/cowboy/.local/share/vifm/Trash/000_std.asm
+	/home/cowboy/Documents/Rust/languages/snack/examples/std.asm
+t/home/cowboy/.local/share/vifm/Trash/000_load.asm
+	/home/cowboy/Documents/Rust/languages/snack/examples/load.asm
+t/home/cowboy/.local/share/vifm/Trash/000_load
+	/home/cowboy/Documents/Rust/languages/snack/examples/load
+t/home/cowboy/.local/share/vifm/Trash/011_while
+	/home/cowboy/Documents/Rust/languages/snack/examples/while
+t/home/cowboy/.local/share/vifm/Trash/010_while.asm
+	/home/cowboy/Documents/Rust/languages/snack/examples/while.asm
+t/home/cowboy/.local/share/vifm/Trash/000_foo
+	/home/cowboy/Documents/Rust/languages/snack/examples/foo
+t/home/cowboy/.local/share/vifm/Trash/000_foo.asm
+	/home/cowboy/Documents/Rust/languages/snack/examples/foo.asm
+t/home/cowboy/.local/share/vifm/Trash/000_return.asm
+	/home/cowboy/Documents/Rust/languages/snack/tests/return.asm
+t/home/cowboy/.local/share/vifm/Trash/000_return
+	/home/cowboy/Documents/Rust/languages/snack/tests/return
+t/home/cowboy/.local/share/vifm/Trash/000_txt
+	/home/cowboy/Documents/Rust/languages/snack/tests/txt
+t/home/cowboy/.local/share/vifm/Trash/000_and.asm
+	/home/cowboy/Documents/Rust/languages/snack/tests/and.asm
+t/home/cowboy/.local/share/vifm/Trash/000_and
+	/home/cowboy/Documents/Rust/languages/snack/tests/and
+t/home/cowboy/.local/share/vifm/Trash/000_add
+	/home/cowboy/Documents/ASM/hello-world/add
+t/home/cowboy/.local/share/vifm/Trash/001_and
+	/home/cowboy/Documents/ASM/hello-world/and
+t/home/cowboy/.local/share/vifm/Trash/000_pop_forever
+	/home/cowboy/Documents/ASM/hello-world/pop_forever
+t/home/cowboy/.local/share/vifm/Trash/000_or
+	/home/cowboy/Documents/Rust/languages/snack/examples/or
+t/home/cowboy/.local/share/vifm/Trash/000_or.asm
+	/home/cowboy/Documents/Rust/languages/snack/examples/or.asm
+t/home/cowboy/.local/share/vifm/Trash/000_or.snack
+	/home/cowboy/Documents/Rust/languages/snack/examples/or.snack
+t/home/cowboy/.local/share/vifm/Trash/000_true
+	/home/cowboy/Documents/Rust/languages/snack/examples/true
+t/home/cowboy/.local/share/vifm/Trash/000_true.asm
+	/home/cowboy/Documents/Rust/languages/snack/examples/true.asm
+t/home/cowboy/.local/share/vifm/Trash/000_true.snack
+	/home/cowboy/Documents/Rust/languages/snack/examples/true.snack
+t/home/cowboy/.local/share/vifm/Trash/000_char
+	/home/cowboy/Documents/Rust/languages/snack/examples/char
+t/home/cowboy/.local/share/vifm/Trash/000_char.asm
+	/home/cowboy/Documents/Rust/languages/snack/examples/char.asm
+t/home/cowboy/.local/share/vifm/Trash/000_char.snack
+	/home/cowboy/Documents/Rust/languages/snack/examples/char.snack
+t/home/cowboy/.local/share/vifm/Trash/014_basic
+	/home/cowboy/Documents/Rust/languages/snack/tests/basic
+t/home/cowboy/.local/share/vifm/Trash/011_basic.asm
+	/home/cowboy/Documents/Rust/languages/snack/tests/basic.asm
+t/home/cowboy/.local/share/vifm/Trash/001_add
+	/home/cowboy/Documents/Rust/languages/snowc/example_scripts/add
+t/home/cowboy/.local/share/vifm/Trash/000_add.asm
+	/home/cowboy/Documents/Rust/languages/snowc/example_scripts/add.asm
+t/home/cowboy/.local/share/vifm/Trash/001_]
+	/home/cowboy/Documents/Rust/languages/snack/snackc/]
+t/home/cowboy/.local/share/vifm/Trash/000_type_check_func
+	/home/cowboy/Documents/Rust/languages/snack/snackc/type_check_func
+t/home/cowboy/.local/share/vifm/Trash/000_type_check_func.asm
+	/home/cowboy/Documents/Rust/languages/snack/snackc/type_check_func.asm
+t/home/cowboy/.local/share/vifm/Trash/000_std.snack
+	/home/cowboy/Documents/Rust/languages/snack/snackc/std.snack
+t/home/cowboy/.local/share/vifm/Trash/000_type_check_func.S
+	/home/cowboy/Documents/Rust/languages/snack/snackc/type_check_func.S
+t/home/cowboy/.local/share/vifm/Trash/000_other.rs
+	/home/cowboy/Documents/Rust/languages/snack/snackc/src/other.rs
+t/home/cowboy/.local/share/vifm/Trash/005_'
+	/home/cowboy/Documents/Rust/languages/melt/'
+t/home/cowboy/.local/share/vifm/Trash/000_dump.dmp
+	/home/cowboy/Documents/Rust/languages/melt/dump.dmp
+t/home/cowboy/.local/share/vifm/Trash/000_dump
+	/home/cowboy/Documents/Rust/languages/melt/dump
+t/home/cowboy/.local/share/vifm/Trash/000_d.dmp
+	/home/cowboy/Documents/Rust/languages/melt/d.dmp
+t/home/cowboy/.local/share/vifm/Trash/001_or
+	/home/cowboy/Documents/Rust/languages/snack/snackc/snack_tests/or
+t/home/cowboy/.local/share/vifm/Trash/001_or.asm
+	/home/cowboy/Documents/Rust/languages/snack/snackc/snack_tests/or.asm
+t/home/cowboy/.local/share/vifm/Trash/009_type_check_func
+	/home/cowboy/Documents/Rust/languages/snack/snackc/snack_tests/type_check_func
+t/home/cowboy/.local/share/vifm/Trash/009_type_check_func.asm
+	/home/cowboy/Documents/Rust/languages/snack/snackc/snack_tests/type_check_func.asm
+t/home/cowboy/.local/share/vifm/Trash/000_todo.txt
+	/home/cowboy/Documents/Rust/languages/snack/todo.txt
+t/home/cowboy/.local/share/vifm/Trash/000_gosnack
+	/home/cowboy/Documents/Rust/languages/snack/gosnack
+t/home/cowboy/.local/share/vifm/Trash/000_.vscode
+	/home/cowboy/Documents/Rust/languages/snack/snackc/.vscode
+t/home/cowboy/.local/share/vifm/Trash/000_DOC.md
+	/home/cowboy/Documents/Rust/languages/snack/snackc/DOC.md
+t/home/cowboy/.local/share/vifm/Trash/000_bar.snack
+	/home/cowboy/Documents/Rust/languages/snack/examples/bar.snack
+t/home/cowboy/.local/share/vifm/Trash/000_foo.snack
+	/home/cowboy/Documents/Rust/languages/snack/examples/foo.snack
+t/home/cowboy/.local/share/vifm/Trash/000_load.snack
+	/home/cowboy/Documents/Rust/languages/snack/examples/load.snack
+t/home/cowboy/.local/share/vifm/Trash/000_builtin_test
+	/home/cowboy/Documents/Rust/languages/snack/examples/builtin_test
+t/home/cowboy/.local/share/vifm/Trash/001_builtin_test.asm
+	/home/cowboy/Documents/Rust/languages/snack/examples/builtin_test.asm
+t/home/cowboy/.local/share/vifm/Trash/002_mem
+	/home/cowboy/Documents/Rust/languages/snack/examples/mem
+t/home/cowboy/.local/share/vifm/Trash/000_mem.asm
+	/home/cowboy/Documents/Rust/languages/snack/examples/mem.asm
+t/home/cowboy/.local/share/vifm/Trash/000_word_call_in_loop
+	/home/cowboy/Documents/Rust/languages/snack/snackc/snack_tests/word_call_in_loop
+t/home/cowboy/.local/share/vifm/Trash/000_word_call_in_loop.asm
+	/home/cowboy/Documents/Rust/languages/snack/snackc/snack_tests/word_call_in_loop.asm
+t/home/cowboy/.local/share/vifm/Trash/001_print_same_string_twice
+	/home/cowboy/Documents/Rust/languages/snack/snackc/snack_tests/print_same_string_twice
+t/home/cowboy/.local/share/vifm/Trash/001_print_same_string_twice.asm
+	/home/cowboy/Documents/Rust/languages/snack/snackc/snack_tests/print_same_string_twice.asm
+t/home/cowboy/.local/share/vifm/Trash/007_and
+	/home/cowboy/Documents/Rust/languages/snack/snackc/snack_tests/and
+t/home/cowboy/.local/share/vifm/Trash/005_and.asm
+	/home/cowboy/Documents/Rust/languages/snack/snackc/snack_tests/and.asm
+t/home/cowboy/.local/share/vifm/Trash/000_tictactoe
+	/home/cowboy/Documents/Rust/languages/snack/examples/tictactoe
+t/home/cowboy/.local/share/vifm/Trash/000_tictactoe.asm
+	/home/cowboy/Documents/Rust/languages/snack/examples/tictactoe.asm
+t/home/cowboy/.local/share/vifm/Trash/000_args
+	/home/cowboy/Documents/ASM/hello-world/args
+t/home/cowboy/.local/share/vifm/Trash/001_main.rs
+	/home/cowboy/Documents/Rust/languages/procc/scanner/src/main.rs
+t/home/cowboy/.local/share/vifm/Trash/021_target
+	/home/cowboy/Documents/Rust/languages/procc/target
+t/home/cowboy/.local/share/vifm/Trash/020_Cargo.lock
+	/home/cowboy/Documents/Rust/languages/procc/Cargo.lock
+t/home/cowboy/.local/share/vifm/Trash/000_fp-lang
+	/home/cowboy/Documents/Rust/languages/fp-lang
+t/home/cowboy/.local/share/vifm/Trash/000_lite-lang
+	/home/cowboy/Documents/Rust/languages/lite-lang
+t/home/cowboy/.local/share/vifm/Trash/006_foo
+	/home/cowboy/Documents/Rust/languages/foo
+t/home/cowboy/.local/share/vifm/Trash/000_sync
+	/home/cowboy/Documents/Rust/languages/sync
+t/home/cowboy/.local/share/vifm/Trash/000_nano_rust
+	/home/cowboy/Documents/Rust/languages/nano_rust
+t/home/cowboy/.local/share/vifm/Trash/000_Z
+	/home/cowboy/Documents/Rust/languages/Z
+t/home/cowboy/.local/share/vifm/Trash/000_getasm
+	/home/cowboy/Downloads/porth/getasm
+t/home/cowboy/.local/share/vifm/Trash/000_getasm.asm
+	/home/cowboy/Downloads/porth/getasm.asm
+t/home/cowboy/.local/share/vifm/Trash/000_getasm.porth
+	/home/cowboy/Downloads/porth/getasm.porth
+t/home/cowboy/.local/share/vifm/Trash/002_2
+	/home/cowboy/Documents/text-editor-dev/2
+t/home/cowboy/.local/share/vifm/Trash/021_Cargo.lock
+	/home/cowboy/Documents/Rust/languages/cbc/Cargo.lock
+t/home/cowboy/.local/share/vifm/Trash/022_target
+	/home/cowboy/Documents/Rust/languages/cbc/target
+t/home/cowboy/.local/share/vifm/Trash/022_Cargo.lock
+	/home/cowboy/Documents/Rust/languages/cbc/scanner/Cargo.lock
+t/home/cowboy/.local/share/vifm/Trash/023_target
+	/home/cowboy/Documents/Rust/languages/cbc/scanner/target
+t/home/cowboy/.local/share/vifm/Trash/006_.git
+	/home/cowboy/Documents/Rust/languages/cbc/.git
+t/home/cowboy/.local/share/vifm/Trash/000_pratt-parser.py
+	/home/cowboy/Documents/Py/pratt-parser.py
+t/home/cowboy/.local/share/vifm/Trash/006_'
+	/home/cowboy/Downloads/cbc/scanner/src/'
+t/home/cowboy/.local/share/vifm/Trash/002_main.rs
+	/home/cowboy/Documents/Rust/test_projects/deleteme/examples/pratt-parser/src/main.rs
+t/home/cowboy/.local/share/vifm/Trash/000_StudioOne
+	/home/cowboy/Documents/StudioOne
+t/home/cowboy/.local/share/vifm/Trash/000_lmms
+	/home/cowboy/Documents/lmms
+t/home/cowboy/.local/share/vifm/Trash/000_Godot
+	/home/cowboy/Documents/Godot
+t/home/cowboy/.local/share/vifm/Trash/000_gergoplex
+	/home/cowboy/Documents/gergoplex
+t/home/cowboy/.local/share/vifm/Trash/000_Pygo.toml
+	/home/cowboy/Documents/Py/stack-lang/Pygo.toml
+t/home/cowboy/.local/share/vifm/Trash/001_snack.rs
+	/home/cowboy/Documents/Py/stack-lang/snack.rs
+t/home/cowboy/.local/share/vifm/Trash/000_fasm-test
+	/home/cowboy/Documents/Py/stack-lang/fasm-test
+t/home/cowboy/.local/share/vifm/Trash/000_DIM-1
+	/media/cowboy/rootfs/home/pi/minecraft/world_nether/DIM-1
+t/home/cowboy/.local/share/vifm/Trash/000_DIM1
+	/media/cowboy/rootfs/home/pi/minecraft/world_the_end/DIM1
+t/home/cowboy/.local/share/vifm/Trash/000_slicer
+	/home/cowboy/Downloads/slicer
+t/home/cowboy/.local/share/vifm/Trash/000_talon-linux
+	/home/cowboy/Downloads/talon-linux
+t/home/cowboy/.local/share/vifm/Trash/000_roc-source-code
+	/home/cowboy/Downloads/roc-source-code
+t/home/cowboy/.local/share/vifm/Trash/000_qmk_firmware-gboards-gergoplex-layout_split_3x5_3_mine
+	/home/cowboy/Downloads/qmk_firmware-gboards-gergoplex-layout_split_3x5_3_mine
+t/home/cowboy/.local/share/vifm/Trash/000_ideaIC-2021.3.1
+	/home/cowboy/Downloads/ideaIC-2021.3.1
+t/home/cowboy/.local/share/vifm/Trash/000_porth
+	/home/cowboy/Downloads/porth
+t/home/cowboy/.local/share/vifm/Trash/000_procc
+	/home/cowboy/Downloads/procc
+t/home/cowboy/.local/share/vifm/Trash/000_cbc
+	/home/cowboy/Downloads/cbc
+t/home/cowboy/.local/share/vifm/Trash/000_dots
+	/home/cowboy/Downloads/dots
+t/home/cowboy/.local/share/vifm/Trash/000_2022-01-28-raspios-bullseye-arm64.img
+	/home/cowboy/Downloads/2022-01-28-raspios-bullseye-arm64.img
+t/home/cowboy/.local/share/vifm/Trash/000_cadmus.deb
+	/home/cowboy/Downloads/cadmus.deb
+t/home/cowboy/.local/share/vifm/Trash/000_colors.zip
+	/home/cowboy/Downloads/colors.zip
+t/home/cowboy/.local/share/vifm/Trash/000_doc.html
+	/home/cowboy/Downloads/doc.html
+t/home/cowboy/.local/share/vifm/Trash/000_dotnet-install.sh
+	/home/cowboy/Downloads/dotnet-install.sh
+t/home/cowboy/.local/share/vifm/Trash/000_eclipse-java-2021-12-R-linux-gtk-x86_64.tar.gz
+	/home/cowboy/Downloads/eclipse-java-2021-12-R-linux-gtk-x86_64.tar.gz
+t/home/cowboy/.local/share/vifm/Trash/000_emacs-emacs-28.0.91.zip
+	/home/cowboy/Downloads/emacs-emacs-28.0.91.zip
+t/home/cowboy/.local/share/vifm/Trash/000_fasm-1.73.29.tgz
+	/home/cowboy/Downloads/fasm-1.73.29.tgz
+t/home/cowboy/.local/share/vifm/Trash/000_gboards_gergoplex_layout_split_3x5_3_mine.json
+	/home/cowboy/Downloads/gboards_gergoplex_layout_split_3x5_3_mine.json
+t/home/cowboy/.local/share/vifm/Trash/000_google-chrome-stable_current_amd64.deb
+	/home/cowboy/Downloads/google-chrome-stable_current_amd64.deb
+t/home/cowboy/.local/share/vifm/Trash/000_halfkey.json
+	/home/cowboy/Downloads/halfkey.json
+t/home/cowboy/.local/share/vifm/Trash/000_hello_honey.zip
+	/home/cowboy/Downloads/hello_honey.zip
+t/home/cowboy/.local/share/vifm/Trash/002_helloworld
+	/home/cowboy/Downloads/helloworld
+t/home/cowboy/.local/share/vifm/Trash/000_ideaIC-2021.3.1.tar.gz
+	/home/cowboy/Downloads/ideaIC-2021.3.1.tar.gz
+t/home/cowboy/.local/share/vifm/Trash/000_josephsophia.zip
+	/home/cowboy/Downloads/josephsophia.zip
+t/home/cowboy/.local/share/vifm/Trash/000_kdenlive
+	/home/cowboy/Downloads/kdenlive
+t/home/cowboy/.local/share/vifm/Trash/000_qmk_firmware-gboards-gergoplex-layout_split_3x5_3_mine.zip
+	/home/cowboy/Downloads/qmk_firmware-gboards-gergoplex-layout_split_3x5_3_mine.zip
+t/home/cowboy/.local/share/vifm/Trash/000_roc-source-code.zip
+	/home/cowboy/Downloads/roc-source-code.zip
+t/home/cowboy/.local/share/vifm/Trash/000_slicer.zip
+	/home/cowboy/Downloads/slicer.zip
+t/home/cowboy/.local/share/vifm/Trash/000_talon-linux.tar.xz
+	/home/cowboy/Downloads/talon-linux.tar.xz
+t/home/cowboy/.local/share/vifm/Trash/000_teams_1.4.00.26453_amd64.deb
+	/home/cowboy/Downloads/teams_1.4.00.26453_amd64.deb
+t/home/cowboy/.local/share/vifm/Trash/000_term.png
+	/home/cowboy/Downloads/term.png
+t/home/cowboy/.local/share/vifm/Trash/000_tmux.zip
+	/home/cowboy/Downloads/tmux.zip
+t/home/cowboy/.local/share/vifm/Trash/000_world.zip
+	/home/cowboy/Downloads/world.zip
+t/home/cowboy/.local/share/vifm/Trash/000_PreSonus Studio One 3 Installer (x64).exe
+	/home/cowboy/Downloads/PreSonus Studio One 3 Installer (x64).exe
+t/home/cowboy/.local/share/vifm/Trash/001_mods
+	/home/cowboy/.minecraft/RedstoneCodeServer/mods/mods
+t/home/cowboy/.local/share/vifm/Trash/024_Cargo.lock
+	/home/cowboy/Documents/Rust/2d-book/invaders/Cargo.lock
+t/home/cowboy/.local/share/vifm/Trash/025_target
+	/home/cowboy/Documents/Rust/2d-book/invaders/target
+t/home/cowboy/.local/share/vifm/Trash/000_Selected Packs.txt
+	/home/cowboy/.minecraft/RedstoneCodeServer/resourcepacks/Selected Packs.txt
+t/home/cowboy/.local/share/vifm/Trash/000_pack.mcmeta
+	/home/cowboy/.minecraft/RedstoneCodeServer/resourcepacks/pack.mcmeta
+t/home/cowboy/.local/share/vifm/Trash/000_pack.png
+	/home/cowboy/.minecraft/RedstoneCodeServer/resourcepacks/pack.png
+t/home/cowboy/.local/share/vifm/Trash/001_.vscode
+	/home/cowboy/Documents/WindowsPCData/Python_Programing/.vscode
+t/home/cowboy/.local/share/vifm/Trash/000_constructionwand-1.18.2-2.7.jar
+	/home/cowboy/.minecraft/RedstoneCodeServer/mods/constructionwand-1.18.2-2.7.jar
+t/home/cowboy/.local/share/vifm/Trash/000_CowboyFace
+	/home/cowboy/.minecraft/ModSkyBlock/saves/CowboyFace
+t/home/cowboy/.local/share/vifm/Trash/000_HardCore Shorts
+	/home/cowboy/.minecraft/ModSkyBlock/saves/HardCore Shorts
+t/home/cowboy/.local/share/vifm/Trash/000_Tower
+	/home/cowboy/.minecraft/ModSkyBlock/saves/Tower
+t/home/cowboy/.local/share/vifm/Trash/001_automatic_snow_farm_1_16
+	/home/cowboy/.minecraft/ModSkyBlock/saves/automatic_snow_farm_1_16
+t/home/cowboy/.local/share/vifm/Trash/000_ff21-ice_farm_fixes
+	/home/cowboy/.minecraft/ModSkyBlock/saves/ff21-ice_farm_fixes
+t/home/cowboy/.local/share/vifm/Trash/000_ice_farm_112
+	/home/cowboy/.minecraft/ModSkyBlock/saves/ice_farm_112
+t/home/cowboy/.local/share/vifm/Trash/000_ice_farm_113
+	/home/cowboy/.minecraft/ModSkyBlock/saves/ice_farm_113
+t/home/cowboy/.local/share/vifm/Trash/000_itemscroller
+	/home/cowboy/.minecraft/ModSkyBlock/itemscroller
+t/home/cowboy/.local/share/vifm/Trash/000_.replay_cache
+	/home/cowboy/.minecraft/ModSkyBlock/.replay_cache
+t/home/cowboy/.local/share/vifm/Trash/000_.optifine
+	/home/cowboy/.minecraft/ModSkyBlock/.optifine
+t/home/cowboy/.local/share/vifm/Trash/000_.mixin.out
+	/home/cowboy/.minecraft/ModSkyBlock/.mixin.out
+t/home/cowboy/.local/share/vifm/Trash/000_screenshots
+	/home/cowboy/.minecraft/ModSkyBlock/screenshots
+t/home/cowboy/.local/share/vifm/Trash/000_shaderpacks
+	/home/cowboy/.minecraft/ModSkyBlock/shaderpacks
+t/home/cowboy/.local/share/vifm/Trash/000_1.17.2
+	/home/cowboy/.minecraft/ModSkyBlock/mods/1.17.2
+t/home/cowboy/.local/share/vifm/Trash/000_1.18.1
+	/home/cowboy/.minecraft/ModSkyBlock/mods/1.18.1
+t/home/cowboy/.local/share/vifm/Trash/000_1.18.2
+	/home/cowboy/.minecraft/ModSkyBlock/mods/1.18.2
+t/home/cowboy/.local/share/vifm/Trash/000_ideaIC-2021.3.3
+	/home/cowboy/Aur/ideaIC-2021.3.3
+t/home/cowboy/.local/share/vifm/Trash/008_.git
+	/home/cowboy/Documents/Java/fabric-simply-buidler-wands-1.18.2_0.0.1/.git
+t/home/cowboy/.local/share/vifm/Trash/001_.github
+	/home/cowboy/Documents/Java/fabric-simply-buidler-wands-1.18.2_0.0.1/.github
+t/home/cowboy/.local/share/vifm/Trash/001_DIM-1
+	/media/cowboy/rootfs/home/pi/servers/sky_block/world/DIM-1
+t/home/cowboy/.local/share/vifm/Trash/001_DIM1
+	/media/cowboy/rootfs/home/pi/servers/sky_block/world/DIM1
+t/home/cowboy/.local/share/vifm/Trash/000_.DS_Store
+	/media/cowboy/rootfs/home/pi/servers/sky_block/world/.DS_Store
+t/home/cowboy/.local/share/vifm/Trash/000_run.sh
+	/home/cowboy/Aur/run.sh
+t/home/cowboy/.local/share/vifm/Trash/000_d
+	/home/cowboy/.minecraft/ModSkyBlock/resourcepacks/d
+t/home/cowboy/.local/share/vifm/Trash/000_fabric_compressed_diamonds-0.0.1-1.18.2.jar
+	/home/cowboy/Documents/Java/fabric-compressed_diamonds-1.18.2_0.0.1/build/libs/fabric_compressed_diamonds-0.0.1-1.18.2.jar
+t/home/cowboy/.local/share/vifm/Trash/003_mods
+	/home/cowboy/.minecraft/SkyBlock/mods
+t/home/cowboy/.local/share/vifm/Trash/001_.optifine
+	/home/cowboy/.minecraft/SkyBlock/.optifine
+t/home/cowboy/.local/share/vifm/Trash/000_.fabric
+	/home/cowboy/.minecraft/SkyBlock/.fabric
+t/home/cowboy/.local/share/vifm/Trash/000_optifabric-1.7.0.jar
+	/home/cowboy/.minecraft/SkyBlock/mods/optifabric-1.7.0.jar
+t/home/cowboy/.local/share/vifm/Trash/000_RoughlyEnoughItems-5.7.0.jar
+	/home/cowboy/.minecraft/SkyBlock/mods/other/RoughlyEnoughItems-5.7.0.jar
+t/home/cowboy/.local/share/vifm/Trash/000_carpet-autocraftingtable-1.16.3-1.4.11.jar
+	/home/cowboy/.minecraft/SkyBlock/mods/other/carpet-autocraftingtable-1.16.3-1.4.11.jar
+t/home/cowboy/.local/share/vifm/Trash/000_carpet-extra-1.16.4-1.4.16.jar
+	/home/cowboy/.minecraft/SkyBlock/mods/other/carpet-extra-1.16.4-1.4.16.jar
+t/home/cowboy/.local/share/vifm/Trash/000_fabric-api-0.24.0+build.411-1.16.jar
+	/home/cowboy/.minecraft/SkyBlock/mods/other/fabric-api-0.24.0+build.411-1.16.jar
+t/home/cowboy/.local/share/vifm/Trash/000_fabric-carpet-1.16.4-1.4.21+v201216.jar
+	/home/cowboy/.minecraft/SkyBlock/mods/other/fabric-carpet-1.16.4-1.4.21+v201216.jar
+t/home/cowboy/.local/share/vifm/Trash/000_itemscroller-fabric-1.16.3-0.15.0-dev.20200912.221805.jar
+	/home/cowboy/.minecraft/SkyBlock/mods/other/itemscroller-fabric-1.16.3-0.15.0-dev.20200912.221805.jar
+t/home/cowboy/.local/share/vifm/Trash/000_litematica-fabric-1.16.3-0.0.0-dev.20200913.215807.jar
+	/home/cowboy/.minecraft/SkyBlock/mods/other/litematica-fabric-1.16.3-0.0.0-dev.20200913.215807.jar
+t/home/cowboy/.local/share/vifm/Trash/000_malilib-fabric-1.16.3-0.10.0-dev.21+arne.1.jar
+	/home/cowboy/.minecraft/SkyBlock/mods/other/malilib-fabric-1.16.3-0.10.0-dev.21+arne.1.jar
+t/home/cowboy/.local/share/vifm/Trash/000_minihud-fabric-1.16.3-0.19.0-dev.20200928.220110.jar
+	/home/cowboy/.minecraft/SkyBlock/mods/other/minihud-fabric-1.16.3-0.19.0-dev.20200928.220110.jar
+t/home/cowboy/.local/share/vifm/Trash/000_replaymod-1.16.3-2.4.5.jar
+	/home/cowboy/.minecraft/SkyBlock/mods/other/replaymod-1.16.3-2.4.5.jar
+t/home/cowboy/.local/share/vifm/Trash/000_skyblock-fc-1.16.3-1.2.0.jar
+	/home/cowboy/.minecraft/SkyBlock/mods/other/skyblock-fc-1.16.3-1.2.0.jar
+t/home/cowboy/.local/share/vifm/Trash/000_tellme-fabric-1.16.3-0.9.1-beta.1.jar
+	/home/cowboy/.minecraft/SkyBlock/mods/other/tellme-fabric-1.16.3-0.9.1-beta.1.jar
+t/home/cowboy/.local/share/vifm/Trash/000_tweakeroo-fabric-1.16.3-0.10.0-dev.20201004.191811.jar
+	/home/cowboy/.minecraft/SkyBlock/mods/other/tweakeroo-fabric-1.16.3-0.10.0-dev.20201004.191811.jar
+t/home/cowboy/.local/share/vifm/Trash/000_advancedperipherals-1.18.2-0.7.13a.jar.1
+	/home/cowboy/.minecraft/ModSkyBlock/mods/advancedperipherals-1.18.2-0.7.13a.jar.1
+t/home/cowboy/.local/share/vifm/Trash/000_fabric-api-0.48.01.18.2.jar
+	/home/cowboy/.minecraft/ModSkyBlock/mods/fabric-api-0.48.01.18.2.jar
+t/home/cowboy/.local/share/vifm/Trash/000_skyblock-1.18.2-3.1.3.jar
+	/home/cowboy/.minecraft/ModSkyBlock/mods/skyblock-1.18.2-3.1.3.jar
+t/home/cowboy/.local/share/vifm/Trash/002_mods
+	/home/cowboy/.minecraft/ModSkyBlock/mods/mods
+t/home/cowboy/.local/share/vifm/Trash/000_fabric-api-0.50.01.18.2.jar
+	/home/cowboy/.minecraft/ModSkyBlock/fabric-api-0.50.01.18.2.jar
+t/home/cowboy/.local/share/vifm/Trash/000_okzoomer-4.0.1+1.16.2.jar
+	/home/cowboy/.minecraft/ModSkyBlock/mods/okzoomer-4.0.1+1.16.2.jar
+t/home/cowboy/.local/share/vifm/Trash/000_optifabric-1.6.4.jar
+	/home/cowboy/.minecraft/SkyBlock/mods/optifabric-1.6.4.jar
+t/home/cowboy/.local/share/vifm/Trash/000_OptiFine_1.16.3_HD_U_G3.jar
+	/home/cowboy/.minecraft/SkyBlock/mods/OptiFine_1.16.3_HD_U_G3.jar
+t/home/cowboy/.local/share/vifm/Trash/000_one.py
+	/home/cowboy/Documents/Bash/one.py
+t/home/cowboy/.local/share/vifm/Trash/000_test.sh
+	/home/cowboy/Documents/Bash/test.sh
+t/home/cowboy/.local/share/vifm/Trash/000_two.py
+	/home/cowboy/Documents/Bash/two.py
+t/home/cowboy/.local/share/vifm/Trash/000_OptiFine_1.18.2_HD_U_H6.jar
+	/home/cowboy/.minecraft/RedstoneCodeServer/mods/OptiFine_1.18.2_HD_U_H6.jar
+t/home/cowboy/.local/share/vifm/Trash/000_optifabric-1.13.0.jar
+	/home/cowboy/.minecraft/RedstoneCodeServer/mods/optifabric-1.13.0.jar
+t/home/cowboy/.local/share/vifm/Trash/001_world.zip
+	/home/cowboy/.minecraft/RedstoneCodeServer/saves/world.zip
+t/home/cowboy/.local/share/vifm/Trash/000_stroage v0.2.0.litematic
+	/home/cowboy/.minecraft/RedstoneCodeServer/schematics/stroage v0.2.0.litematic
+
+# State:
+f
+i1
+[.0
+[F
+F
+I1
+].0
+]F
+s0

@@ -1,0 +1,498 @@
+
+# 2023-09-02 06:52:51.921725
++help
+
+# 2023-09-02 06:53:46.121452
++SELECT * FROM user
+
+# 2023-09-02 06:53:56.909837
++SELECT * FROM user_profile
+
+# 2023-09-02 06:54:54.581670
++DR
+
+# 2023-09-02 06:57:17.275773
++DROP TABLE user_profile;
+
+# 2023-09-02 06:57:41.042669
++SELECT * FROM user_profile
+
+# 2023-09-02 06:59:27.282422
++TRUNCATE user_profile;
+
+# 2023-09-02 06:59:33.804619
++SELECT * FROM user_profile
+
+# 2023-09-02 07:06:04.422632
++SHOW FROM *
+
+# 2023-09-02 07:43:30.146523
++F
+
+# 2023-09-02 07:44:02.101259
++FROM user_profile WHERE id = 1;
+
+# 2023-09-02 07:47:54.726006
++SELECT * FROM user_profile WHERE id = 1;
+
+# 2023-09-02 07:48:08.553035
++SELECT * FROM user_profile WHERE id=1;
+
+# 2023-09-02 07:48:51.377044
++SELECT * FROM user_profile;
+
+# 2023-09-02 07:49:14.585637
++SELECT * FROM user_profile WHERE id=73a20eca-4221-462d-83cf-535ac6b24e20;
+
+# 2023-09-02 07:49:26.555483
++SELECT * FROM user_profile WHERE id="73a20eca-4221-462d-83cf-535ac6b24e20";
+
+# 2023-09-02 07:50:37.054434
++SELECT * FROM user_profile WHERE id::TEXT="73a20eca-4221-462d-83cf-535ac6b24e20";
+
+# 2023-09-02 07:50:53.503305
++SELECT * FROM user_profile WHERE id::TEXT='73a20eca-4221-462d-83cf-535ac6b24e20';
+
+# 2023-09-02 07:55:28.641208
++SELECT pas FROM user_profile WHERE id::TEXT='73a20eca-4221-462d-83cf-535ac6b24e20';
+
+# 2023-09-02 07:55:35.731910
++SELECT password FROM user_profile WHERE id::TEXT='73a20eca-4221-462d-83cf-535ac6b24e20';
+
+# 2023-09-02 07:58:08.944080
++SELECT id FROM user_profile WHERE password::TEXT='$argon2id$v=19$m=4096,t=192,p=8$q+nPbKj/hSgOPWR7XGnwdIk88Qxt2uOm1RruVtcu5xI$S8toR+wxiDSPC7JeLjMbTJN8eytwdIk88Qxt2uOm1RruVtcu5xI$S8toR+wxiDSPC7JeLjMbTJN8eytRhpSLwYBAJnlDeug';
+
+# 2023-09-02 08:01:13.553798
++SELECT id, password FROM user_profile WHERE name::TEXT='cowboy8625';
+
+# 2023-09-02 09:00:12.914164
++\l
+
+# 2023-09-02 09:00:29.305626
++\dt
+
+# 2023-09-02 09:00:49.663027
++SELECT id, password FROM user_profile WHERE name::TEXT='cowboy8625';
+
+# 2023-09-02 10:14:45.689861
++SELECT *FROM user_profile;
+
+# 2023-09-02 11:31:25.034269
++SELECT privileges FROM user_profile;
+
+# 2023-09-02 11:31:35.650737
++SELECT privilege FROM user_profile;
+
+# 2023-09-02 12:44:54.311636
++UPDATE user_profile SET privilege='admin' WHERE name='cowboy8625';
+
+# 2023-09-02 12:45:05.825762
++SELECT privilege FROM user_profile;
+
+# 2023-09-02 16:02:41.735550
++\l
+
+# 2023-09-09 18:18:45.675038
++SELECT * FROM user_profile;
+
+# 2023-09-09 18:21:52.228366
++\o output.txt
+
+# 2023-09-09 18:22:01.961212
++SELECT * FROM user_profile;
+
+# 2023-09-09 18:32:44.301964
++SELECT name FROM user_profile WHERE name = "cowboy8625";
+
+# 2023-09-09 18:37:04.152422
++INSERT INTO user_profile (name)
++SELECT * FROM (SELECT 'cowboy8625') AS tmp
++WHERE NOT EXISTS (
++    SELECT name FROM user_profile WHERE name = 'cowboy8625'
++) LIMIT 1;
+
+# 2023-09-09 19:10:33.530088
++select * j
+
+# 2023-09-09 20:41:32.996506
++INSERT INTO comment (user_id, room_idkkjk VALUES ();
+
+# 2024-05-15 20:21:03.460428
++ls
+
+# 2024-05-15 20:21:11.546846
++\td
+
+# 2024-05-15 20:21:16.362914
++\t
+
+# 2024-05-15 20:21:27.430802
++\?
+
+# 2024-05-15 20:21:37.942793
++\td
+
+# 2024-05-15 20:36:40.338987
++\df
+
+# 2024-05-15 20:37:13.950725
++\dt
+
+# 2024-05-15 20:46:09.078595
++BEGIN TRANSACTION;
+
+# 2024-05-15 20:46:23.810733
++END TRANSACTION;
+
+# 2024-05-15 20:46:37.042990
++select * from farms;
+
+# 2024-05-15 20:46:43.862814
++select * from page_state;
+
+# 2024-05-15 20:46:55.054934
++select * from user_profile;
+
+# 2024-05-15 20:49:22.878686
++select * from information_schema;
+
+# 2024-05-15 20:49:31.234815
++\dt
+
+# 2024-05-15 20:49:50.498825
++select * from user_profile;
+
+# 2024-05-15 21:05:26.311214
++\x
+
+# 2024-05-15 21:05:28.110986
++select * from user_profile;
+
+# 2024-05-15 21:05:54.418875
++\?
+
+# 2024-05-15 21:06:49.122714
++\n
+
+# 2024-05-15 21:08:33.314832
++-- \ns example select * from 
+
+# 2024-05-15 21:08:40.902709
++\dt
+
+# 2024-05-15 21:09:26.307046
++\ns example select * from farms;
+
+# 2024-05-15 21:09:34.122911
++\n example
+
+# 2024-05-15 21:17:38.042698
++\nd example
+
+# 2024-05-15 21:37:18.310871
++\ns example select * from $1;
+
+# 2024-05-15 21:37:28.314721
++\n example farms
+
+# 2024-05-15 21:37:47.798967
++select * from farms;
+
+# 2024-05-15 21:37:58.134650
++select * from user_profile;
+
+# 2024-05-15 21:38:10.030733
++\n example user_parfile
+
+# 2024-05-15 21:38:16.269994
++\n example user_profile;
+
+# 2024-12-16 17:51:55.457952
++select * from messages;
+
+# 2024-12-16 17:52:25.254639
++select * from users;
+
+# 2024-12-16 17:53:13.104256
++exit
+
+# 2024-12-16 17:54:56.737789
++select * from users;
+
+# 2024-12-16 17:55:03.374890
++select * from "users";
+
+# 2024-12-16 17:55:05.659809
++:q
+
+# 2024-12-16 18:02:31.246705
++select * from "users";
+
+# 2024-12-16 18:02:33.969922
++select * from users;
+
+# 2024-12-16 18:02:55.057248
++\d
+
+# 2024-12-16 18:12:08.598062
++:q
+
+# 2024-12-16 18:12:57.947109
++\d
+
+# 2024-12-16 18:13:09.293770
++select * from users;
+
+# 2024-12-16 18:13:11.940105
++:q
+
+# 2024-12-16 18:15:28.396580
++\dE
+
+# 2024-12-16 18:15:49.436709
++\dn
+
+# 2024-12-16 18:16:17.736524
++\i database/init.sql
+
+# 2024-12-16 18:25:13.015880
++select version()
+
+# 2024-12-16 18:31:52.576833
++\d
+
+# 2024-12-16 18:32:37.620851
++\i database/init.sql
+
+# 2024-12-16 18:33:30.245342
++:q
+
+# 2024-12-16 18:33:42.341776
++\i database/init.sql
+
+# 2024-12-16 18:35:04.824224
++:q
+
+# 2024-12-16 18:39:23.630598
++\di
+
+# 2024-12-16 18:39:25.225116
++d
+
+# 2024-12-16 18:39:26.246753
++\d
+
+# 2024-12-16 18:39:30.199998
++ls
+
+# 2024-12-16 18:39:33.457157
++\t
+
+# 2024-12-16 18:39:39.861222
++\#
+
+# 2024-12-16 18:39:49.383699
++\db
+
+# 2024-12-16 18:40:00.880135
++\dD
+
+# 2024-12-16 18:40:18.881809
++exit
+
+# 2024-12-16 18:40:44.178478
++\i database/init.sql
+
+# 2024-12-16 18:41:19.729688
++exit
+
+# 2024-12-16 18:41:53.829601
++\i database/init.sql
+
+# 2024-12-16 18:42:14.756775
++\d
+
+# 2024-12-16 18:42:22.877937
++exit
+
+# 2024-12-16 19:00:19.420333
++select * from topics;
+
+# 2024-12-16 19:00:26.828146
++:q
+
+# 2024-12-16 19:02:28.189995
++select * from topics;
+
+# 2024-12-16 19:02:36.559897
++\di
+
+# 2024-12-16 19:02:45.775984
++\dD
+
+# 2024-12-16 19:02:49.534244
++\db
+
+# 2024-12-16 19:03:05.187997
++\dn
+
+# 2024-12-16 19:03:37.290770
++:q
+
+# 2024-12-16 19:04:16.380985
++:q
+
+# 2024-12-16 19:05:01.088627
++insert into topics values name = 'discord and twitch bot';
+
+# 2024-12-16 19:05:18.943216
++insert into topics values (name = 'discord and twitch bot');
+
+# 2024-12-16 19:05:53.390483
++insert into topics values (name) set ('discord and twitch bot');
+
+# 2024-12-16 19:07:23.453593
++insert into topics (name) value (uuid_generate_v4(), 'discord and twitch bot', CURRENT_TIMESTAMP);
+
+# 2024-12-16 19:07:43.358717
++insert into topics (id, name, date_created) value (uuid_generate_v4(), 'discord and twitch bot', CURRENT_TIMESTAMP);
+
+# 2024-12-16 19:08:17.417040
++insert into topics (id, name, date_created) values (uuid_generate_v4(), 'discord and twitch bot', CURRENT_TIMESTAMP);
+
+# 2024-12-16 19:09:32.405471
++CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
++
+
+# 2024-12-16 19:09:35.708456
++insert into topics (id, name, date_created) values (uuid_generate_v4(), 'discord and twitch bot', CURRENT_TIMESTAMP);
+
+# 2024-12-16 19:09:55.528897
++select * from topics;
+
+# 2024-12-16 19:21:57.620561
++SELECT name FROM topics ORDER BY id DESC LIMIT 1;
+
+# 2024-12-24 13:10:15.112130
++select * from topics
+
+# 2024-12-24 13:12:48.550569
++exit
+
+# 2024-12-24 13:34:35.242155
++select * from topics
+
+# 2024-12-24 14:23:37.371204
++select * from messages
+
+# 2024-12-26 16:32:34.376465
++exit
+
+# 2024-12-27 04:56:08.158164
++\d messages
+
+# 2024-12-27 04:56:54.711646
++ALTER TABLE messages DROP CONSTRAINT messages_name_key;
++
+
+# 2024-12-27 04:57:01.584081
++\d messages
+
+# 2024-12-27 04:58:19.112994
++select * from messages
+
+# 2024-12-29 10:22:14.665231
++ls
+
+# 2024-12-29 10:22:22.585006
++select * from topcis;
+
+# 2024-12-29 10:22:32.488358
++select * from topics;
+
+# 2024-12-29 10:23:12.695308
++delete from topics where id = '243c162b-9442-46e4-a2ff-3760dc2c0d0d';
+
+# 2025-08-17 08:51:41.298534
++\d
+
+# 2025-08-17 08:51:52.303780
++select * from users;
+
+# 2025-08-17 08:52:06.823896
++select * from messages
+
+# 2025-08-17 08:52:46.099151
++select * from topics
+
+# 2025-08-17 08:52:57.811534
++select * from users;
+
+# 2025-08-22 19:22:13.737684
++ls
+
+# 2025-08-22 19:22:20.828412
++\dt
+
+# 2025-08-22 19:22:25.194885
++\d
+
+# 2025-10-11 08:58:41.535932
++\t
+
+# 2025-10-11 08:58:46.000281
++\dt
+
+# 2025-10-11 08:59:06.449791
++\d
+
+# 2025-10-11 08:59:12.798782
++ls
+
+# 2025-10-11 08:59:23.724340
++select * from todo
+
+# 2025-10-11 10:21:49.999238
++select * from items
+
+# 2025-10-11 10:24:54.841347
++select * from todo
+
+# 2025-10-11 10:25:03.218827
++\td
+
+# 2025-10-11 10:25:05.685527
++\dt
+
+# 2025-10-11 13:48:04.217036
++select * from todo
+
+# 2025-10-11 13:48:07.798908
++select * from items
+
+# 2025-10-11 13:48:10.824198
++\dt
+
+# 2025-10-11 13:49:34.418142
++select * from items
+
+# 2025-10-11 18:30:26.007699
++\dt
+
+# 2025-10-11 18:43:27.337358
++select * from items
+
+# 2025-10-11 18:43:33.056036
++select * from blog
+
+# 2025-10-11 18:43:38.709571
++select * from blog_item
+
+# 2025-10-11 18:47:10.338453
++select * from blog
+
+# 2025-10-11 18:52:48.743391
++select * from blog_item
+
+# 2025-10-11 19:27:07.220296
++select * from blog

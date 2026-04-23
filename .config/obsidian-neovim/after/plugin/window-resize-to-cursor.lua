@@ -1,0 +1,35 @@
+-- local function resize_window_to_cursor_down()
+--   local row, _ = unpack(vim.api.nvim_win_get_cursor(0))
+--   local currentWin = vim.api.nvim_get_current_win()
+--   vim.api.nvim_win_set_height(currentWin, row)
+-- end
+--
+-- local function resize_window_to_cursor_up()
+--   local row, _ = unpack(vim.api.nvim_win_get_cursor(0))
+--   local height = vim.api.nvim_win_get_height(0)
+--   local currentWin = vim.api.nvim_get_current_win()
+--   vim.api.nvim_win_set_height(currentWin, height - row)
+-- end
+--
+-- local function resize_window_to_cursor_right()
+--   local _, col = unpack(vim.api.nvim_win_get_cursor(0))
+--   local currentWin = vim.api.nvim_get_current_win()
+--   vim.api.nvim_win_set_width(currentWin, col)
+-- end
+--
+-- local function resize_window_to_cursor_left()
+--   local _, col = unpack(vim.api.nvim_win_get_cursor(0))
+--   local width = vim.api.nvim_win_get_width(0)
+--   local currentWin = vim.api.nvim_get_current_win()
+--   vim.api.nvim_win_set_height(currentWin, width - col)
+-- end
+--
+-- vim.api.nvim_create_user_command('ResizeWindowToCursorDown', resize_window_to_cursor_down, {})
+-- vim.api.nvim_create_user_command('ResizeWindowToCursorUp', resize_window_to_cursor_up, {})
+-- vim.api.nvim_create_user_command('ResizeWindowToCursorLeft', resize_window_to_cursor_left, {})
+-- vim.api.nvim_create_user_command('ResizeWindowToCursorRight', resize_window_to_cursor_right, {})
+--
+-- vim.keymap.set('n', '<leader>wcu', '<cmd>ResizeWindowToCursorUp<cr>', { desc = 'Resize window to cursor up' })
+-- vim.keymap.set('n', '<leader>wcd', '<cmd>ResizeWindowToCursorDown<cr>', { desc = 'Resize window to cursor down' })
+-- vim.keymap.set('n', '<leader>wcr', '<cmd>ResizeWindowToCursorRight<cr>', { desc = 'Resize window to cursor right' })
+-- vim.keymap.set('n', '<leader>wcl', '<cmd>ResizeWindowToCursorLeft<cr>', { desc = 'Resize window to cursor left' })

@@ -1,0 +1,1291 @@
+ls
+z --help
+nu
+reset
+ls 
+exa 
+ls
+ls -al
+help
+ls | sort-by last-modified
+ls
+ls | sort-by modified
+ls | size modified
+ls | sort-by size
+ls | sort-by #
+fn add(x, y) { x + y }
+def add(x, y) { x + y }
+def_func add(x, y) { x + y }
+help funciton
+help language
+help
+help --find function
+help --find create function
+help --find "create function"
+help --find "function"
+help --find language
+help --find nushell-language
+help --find nushell
+ls
+cd Documents/C
+ls
+ls | sort-by type
+ls | sort-by size
+ls | sort-by modified
+ls | sort-by name
+ls 
+ls | sort-by size
+ls
+ls | sort-by size
+ls | sort-by name
+ls | sort-by modified
+function help
+function add(x, y)
+function add(x, y) x + y
+help function
+help
+help --find function
+aplay
+fish
+clear
+help chain
+clear and zig build run
+clear; zig build run
+ 16*16
+ 16 * 16
+ 8 * 8
+clear; zig build run
+ 8 * 8
+clear; zig build run
+ 8 * 8
+clear; zig build run
+ 8 * 8
+clear; zig build run
+clear; zig build test
+clear; zig build run
+clear; zig build test
+clear; zig build run
+ls
+ls | sort-by modified
+ffmpeg -i `2024-07-27 22-05-50.mkv` gen.mp4
+ls | sort-by modified
+ffmpeg -i gen.mp4 -vf scale=1280:720 -c:v libx264 -crf 23 -c:a aac -b:a 128k output1.mp4
+ls | sort-by modified
+open .
+open
+clear; zig build run
+q
+clear; zig build run
+git status
+bn
+ls
+clear
+ls
+ls | sort-by modified
+clear
+ls | sort-by name
+ls | sort-by {|x| $x ends-with ".zig"}
+ls | sort-by {|x| $x.name ends-with ".zig"}
+ls | sort-by --help
+ls | sort {|x| $x.name ends-with ".zig"}
+ls | sort-by {|x| $x.name ends-with ".zig"}
+ls | sort --help
+ls
+ls | sort-by {|x| $x.name ends-with ".zig"}
+ls | sort-by { |x| $x.name ends-with ".zig" }
+ls | sort-by { |x| $x.name ends-with '.zig' }
+ls | sort-by name
+ls | sort-by name -h
+ls | sort --help
+ls | sort {|x| $x.name ends-with ".zig"}
+ls | sort-by {|x| $x.name ends-with ".zig"}
+ls | sort-by {x $x.name ends-with ".zig"}
+ls | filter {x $x.name ends-with ".zig"}
+ls | filter {|x| $x.name ends-with ".zig"}
+zoxide init
+zoxide init nushell
+zoxide init nushell | save -f ~/.zoxide.nu
+nvim $nu.config-path
+exit
+nu init
+config nu
+config reset 
+nvim $nu.config-path
+exit
+curl -sS https://starship.rs/install.sh | sh
+nvim $nu.config-path
+exit
+nvim $nu.config-path
+exit
+mkdir ~/.cache/starship<\n>starship init nu | save -f ~/.cache/starship/init.nu<\n><\n>
+exit
+cd ~
+cd .cache/starship/
+ls
+nvim init.nu
+ls
+nvim $nu.config-path
+nvim $nu.env-path
+exit
+clear
+exit
+curl -sS https://starship.rs/install.sh | sh
+nvim $nu.config-path
+exit
+nvim $nu.env-path
+curl -sS https://starship.rs/install.sh | sh
+rm ~/.cache/starship/init.nu
+exit
+rm ~/.cache/starship
+rm -rf ~/.cache/starship
+exit
+vifm .
+exit
+nvim $nu.config-path
+exit
+ls
+exit
+nvim $nu.config-path
+cleclear; zig build run
+clear; zig build run
+ewew
+clear; zig build run
+ls
+ls | filter {|x| $x.name ends-with ".zig"}
+ls
+exit
+ls
+python3 orginizer.py
+ls
+vifm .
+ls
+cd SimuLight/
+nvim .
+tree
+javac -cp "resources/*:lib/*" -d bin me/bjtmastermind/raylibtest/Main.java && java -cp "bin:resources/*:lib/*" me.bjtmtermind.raylibtest.Main<\n>
+javac -cp "resources/*:lib/*" -d bin me/bjtmastermind/raylibtest/Main.java; java -cp "bin:resources/*:lib/*" me.bjtmtermind.raylibtest.Main<\n>
+ls
+javac -cp "resources/*:lib/*" -d bin me/bjtmastermind/raylibtest/Main.java; java -cp "bin:resources/*:lib/*" me.bjtmastermind.raylibtest.Main<\n>
+javac -cp "resources/*:lib/*" -d bin src/me/bjtmastermind/raylibtest/Main.java; java -cp "bin:resources/*:lib/*" me.bjtmastermind.raylibtest.Main<\n>
+rm -rf bin
+javac -cp "resources/*:lib/*" -d bin src/me/bjtmastermind/raylibtest/Main.java; java -cp "bin:resources/*:lib/*" me.bjtmastermind.raylibtest.Main<\n>
+tree
+javac -cp "resources/*:lib/*" -d bin src/me/bjtmastermind/raylibtest/Main.java src/me/bjtmastermind/raylibtest/*; java -cp "bin:resources/*:lib/*" me.bjtmastermind.raylibtest.Main<\n>
+javac -cp "resources/*:lib/*" -d bin src/me/bjtmastermind/raylibtest/Main.java src/me/bjtmastermind/raylibtest/enums; java -cp "bin:resources/*:lib/*" me.bjtmastermind.raylibtest.Main<\n>
+javac -cp "resources/*:lib/*" -d bin src/me/bjtmastermind/raylibtest/Main.java ; java -cp "bin:resources/*:lib/*" me.bjtmastermind.raylibtest.Main<\n>
+javac -cp "resources/*:lib/*" -d bin src/me/bjtmastermind/raylibtest/Main.java src/me/bjtmastermind/raylibtest/enum; java -cp "bin:resources/*:lib/*" me.bjtmastermind.raylibtest.Main<\n>
+tree
+javac -cp "resources/*:lib/*" -d bin src/me/bjtmastermind/raylibtest/Main.java src/me/bjtmastermind/raylibtest/enums/BlockType.javadd; java -cp "bin:resources/*:lib/*" me.bjtmastermind.raylibtest.Main<\n>
+tree
+nvim build.sh
+chmod +x build.sh
+./build.sh
+nvim build.sh
+./build.sh
+nvim build.sh
+./build.sh
+ls
+rm -rf bin
+./build.sh
+nvim build.sh
+ls
+ls resources/
+nvim build.sh
+./build.sh
+ls bin/
+nvim build.sh
+vifm .
+./build.sh
+vifm .
+nvim build.sh
+ls
+rm -rf bin
+./build.sh
+nvim build.sh
+./build.sh
+nvim build.sh
+make run
+ls
+bat Makefile
+make clean
+ls
+bat Makefile
+exit
+nvim $nu.config-path
+exit
+exit 1
+exit
+curl -sS https://starship.rs/install.sh | sh
+nvim $nu.env-path
+nvim $nu.config-path
+reload
+nvim $nu.config-path
+nvim ~/.cache/starship/init.nu
+sh -c 'rm "$(command -v 'starship')"'
+ls
+nvim ~/.cache/starship/init.nu
+rm -rf ~/.cache/starship
+ls
+zi Java
+cd raylib/
+ls
+vifm .
+make run
+cargo install starship
+exit 1
+exit
+ls
+mkdir src
+mv -r me src/.
+vifm .
+make run
+nvim .
+make run
+exit
+zig build run
+q
+zig build run
+exit
+clear; zig build run
+z .. 
+z testing/
+zig build run
+z Go
+ls
+nvim .
+exit
+exit
+nvim .
+exit
+nvim .
+zig build run
+zig build 
+zig build run
+zig build 
+going-live "working on the ol pixel editor"
+exit 1
+git pull
+git checkout mouse
+git master
+git add .
+git commit -m "not sure just leaving"
+git checkout mouse
+git pull
+ls
+zig build run
+nvim .<\n>
+zig build run
+zi zion
+ls
+nvim src/main.zig
+zig fetch --save https://github.com/Not-Nik/raylib-zig/archive/devel.tar.gz
+rm -rf .zig-cache/
+ls
+nvim .
+zig fetch --save https://github.com/Not-Nik/raylib-zig/archive/devel.tar.gz
+rm -rf .zig-cache/
+zig build run
+rm -rf .zig-cache/
+zig build run
+zig build test
+zig test src/utils.zig
+zig test src/utils.zig -h
+zig test src/utils.zig --test-filter "cast enum to int"
+zig build run
+zi testing
+zig build run
+clear; zig build run
+git status
+git commit -m "camera kicked my butt"
+git add .
+git commit -m "camera kicked my butt"
+git push
+zig build run
+exit
+nvim .
+zig build run
+pixel-edit 
+zig build run
+nvim .
+exit
+z ..
+git clone git@github.com:cowboy8625/nfd.zig.git
+rm -rf nfd.zig/
+git clone git@github.com:cowboy8625/nfd.zig.git
+cd nfd.zig/
+zig build run
+rm -rf .zig-cache/
+zig build run
+nvim .
+rm -rf .zig-cache/
+zig build run
+vifm .
+rm -rf .zig-cache/
+zig build run
+nvim .
+zig build run
+zig --help
+zig build run
+exit
+zig build run
+nvim
+rm -rf .zig-cache/
+zig build run
+:w
+zig build run
+abp
+zig build run
+rm -rf .zig-cache/
+zig build run
+rm -rf .zig-cache/
+zig build run
+rm -rf .zig-cache/
+zig build run
+zi zion
+cd -
+zig build run
+rm -rf .zig-cache/
+zig build run
+rm -rf .zig-cache/
+zig build run
+z ..
+ls
+mkdir module_test
+mkdir import_module_test
+cd ../import_module_test/
+cd module_test/
+zig init
+zig init
+ls
+ls
+nvim .
+zig build run
+ls
+zig build run
+rm -rf .zig-cache/
+zig build run
+rm -rf .zig-cache/
+zig build run
+vifm .
+nvim .
+z pixel
+ls
+cd nfd.zig/
+zig build run
+rm -rf .zig-cache/
+zig build run
+nvim .
+nvim src/main.zig
+zig build run
+rm -rf .zig-cache/
+zig build run
+vifm .
+rm -rf .zig-cache/
+exit
+nvim build.zig.zon
+:q
+exit
+exit
+nvim .
+zi C
+ls
+cd raylib-test/
+ls
+mv main.c main.c.old
+zi Aur
+git clone https://github.com/raysan5/raygui.git
+cd raygui/
+git pull
+mv src/raygui.h src/raygui.c<\n>gcc -o raygui.so src/raygui.c -shared -fpic -DRAYGUI_IMPLEMENTATION -lraylib -lGL -lm -lpthread -ldl -lrt -lX11<\n>mv src/raygui.c src/raygui.h
+ls
+vifm .
+ls
+nvim main.c
+ls
+ls | rg h
+sh build.sh
+ls
+sh build.sh
+ls
+rm my_program
+sh build.sh
+bn
+zig build run
+zig build run88
+zig build run8
+zig build run
+vifm .
+zig build run
+file assets/menu-icon.jpg
+vifm
+file assets/menu-icon.png
+zig build run
+vifm
+zig build run
+vifm
+zig build run
+vifm
+zig build run
+nvim .
+exit
+exit
+zig build run
+nvim .
+open .
+vifm .
+nvim .
+zig build run
+commandline get-cursor 
+sxiv assets/menu-icon.png
+exit
+exi
+exit
+tmux a
+exit
+zi pixel
+nvim .
+zig build run
+git status
+git commit -m "fixed some thing, made some bugs"
+git add .
+git commit -m "fixed some thing, made some bugs"
+git push
+ls
+zig build run
+git status
+git commit -am "fixed texture being unloaded"
+git push
+zig build run
+git push
+zig build run
+git status
+git add .
+git commit -m "resizing canvas buttons"
+git push
+zi C
+ls
+cd raylib-test/
+nvim main.c
+sh build.sh
+nvim .
+make run
+nvim main.c
+make run
+going-live "making a file manager for my pixel editor"
+exit 1
+pixel-edit 
+exit
+zig build run
+pixel-edit 
+zig build run
+zi testing
+zig build run
+zi testing
+clear;
+zig build run
+clear;
+zig build run
+k
+zig build run
+nvim .
+zig build run
+exit
+zig build run
+zi testing
+zig build run
+zi ZOV
+zi VOS
+ls
+bat README.md
+nvi .
+nvim .
+bat step-up.sh
+exit
+ls
+eax
+exa
+clear
+ls
+ls | sort name
+ls | sort-by name
+ls | sort-by size
+ls | filter {|x| $x.name ends-with ".zig"}
+https https://github.com/cowboy8625/rusty-rain.git
+http https://github.com/cowboy8625/rusty-rain.git
+http "https://github.com/cowboy8625/rusty-rain.git"
+http get https://github.com/cowboy8625/rusty-rain.git
+http get "https://github.com/cowboy8625/rusty-rain.git"
+http get "https://api.github.com/cowboy8625/rusty-rain.git"
+http get "https://api.github.com/cowboy8625/rusty-rain"
+http get "https://api.github.com/repos/cowboy8625/rusty-rain"
+exit
+hair
+exit 1
+hare
+zig build run
+zig build run
+zig build run -- 20x20
+pixel-edit 
+zig build run -- 20x
+zig build run
+ewedd
+zig build run
+zi nfd.zig
+exit
+zig build run
+z Aur
+ls
+cd Odin/
+git pull
+nvim .
+make
+sudo apt install libstdc++-12-dev
+make
+make install
+bat Makefile
+make release_native
+ls
+ls bin/
+bat bin/README.md
+odin
+vifm .
+bat Makefile
+make release
+zig build run
+vifm .
+./odin
+sudo cp odin /bin
+odin
+odin run examples/demo/demo.odin
+odin examples/demo/demo.odin
+odin
+odin doc
+./odin doc
+./odin run examples/demo/demo.odin
+./odin run -file examples/demo/demo.odin
+./odin run
+./odin build
+vim examples/demo/demo.odin
+nvim examples/demo/demo.odin
+./odin run examples/demo/demo.odin
+./odin examples/demo/demo.odin run
+./odin examples/demo/demo.odin
+zig build run
+zig build run8
+zig build run
+clear
+ls | filter {|x| $x.name ends-with ".zig"}
+ls
+zig build run
+nvim .
+exit
+exit
+ls
+zig build run
+ls
+sxiv test.png
+zig build run
+ls
+ls src/assets/
+zig build run
+<\n>         └─ zig build-exe testing Debug native (reused)<\n>error: the following build command failed with exit code 1:<\n>/home/cowboy/Documents/Zig/testing/.zig-cache/o/e000932de8d6e211f1336c26acc14996/build /home/cowboy/zig/0.13.0/files/zig /home/cowboy/Documents/Zig/testing /home/cowboy/Documents/Zig/testing/.zig-cache /home/cowboy/.cache/zig --seed 0x4aeaad45 -Zabb0419caa64097a run<\n><\n>Documents/Zig/testing via ↯ v0.13.0<\n><\n>Documents/Zig/testing via ↯ v0.13.0<\n>❯ : zig build run<\n>
+zig build run
+git status
+rm test.png
+git add .
+git commit -m "saveing"
+git push
+zig build run
+git commit -am "clean up"
+git push
+zi testing
+ls
+zig build run
+zi testing 
+zig build run
+nvim .
+zig build run
+zig build run -- --help --version 
+zig build run -- --file name-of-file
+zig build run -- --help --version 
+zig build run -- --file name-of-file
+zig build run
+zig build run -- --help
+going-live "working more on the pixel editor"
+nvim $nu.config-path
+reload
+going-live "working more on the pixel editor"
+nvim $nu.config-path
+reload
+going-live "working more on the pixel editor"
+zig build run -- --help
+zig build run -- -d 17x18
+zig build run -- -d
+zig build run -- -d 17x18ew
+zig build run -- -d
+zig build run -- -d 32x32
+nvim .
+exit
+exit
+zig build run
+exit
+zig build run
+git status
+git add src/Grid.zig
+git stash --help
+git stash push -m "Grid"  -- `git diff --cached --name-only`
+git status
+git stash push -m "Grid" -- `git diff --cached --name-only`
+git reset src/Grid.zig
+git add .
+git reset src/Grid.zig
+git status
+git stash push -m --keep-index "Grid"
+git stash push --keep-index -m "Grid"
+git status
+git commit -m "line tool"
+git stash push -m "Grid"
+git stash 
+ls
+git status
+git add .
+git stash 
+zig build run
+nvim src/args.zig
+zi neolisp
+nvim src/main.zig
+nvi .
+nvim .
+cargo run --release -- samples/rule110.nl
+clear
+zi revi
+cargo run --release -- README.md
+git status
+zi revi
+cargo run --release -- README.md
+zi snowc
+cd ..
+ls
+cd snowc
+ls
+cargo run 
+clear
+cargo run 
+clear;cargo run
+reset
+clear;cargo run
+cd ..
+ls
+cd swrt
+ls
+nvim .
+cargo run --release -- samples/fib.asm
+ls samples
+./samples/fib.asm
+cd ..
+ls
+cd melt
+ls
+cargo run --release -- example_scripts/string.asm
+vifm .
+cargo run --release -- example_scripts/string.asm
+vifm .
+./example_scripts/string
+file example_scripts/string
+bat example_scripts/string.asm
+exit
+zi testing
+zig build run
+snowman-twitch 
+exit
+nvim .
+exit
+zig build run
+snowman-twitch 
+zig build run
+snowman-twitch 
+zig build run
+tmux a
+exit
+tmux
+zi pixel
+zig build run
+zi pixel
+zi game-parts
+ls
+z noise
+nvim .
+exit
+zig build run
+git stash pop
+git reflog
+ls
+git reset
+zig build run
+git status
+git add .
+git commit -m "flood fill"
+git push
+zig build run
+ls src/assets/
+zig build run
+git status
+git add .
+git commit -m "clean up ui"
+git push
+zig build run
+nvim .
+hey
+exit
+dexit
+exit
+:
+exit
+nvim .
+exit
+nvim .
+<c-
+exit
+nvim .
+exit
+eixt
+exit
+nvim .
+exit
+:FloatermToggle
+exit
+nvim .
+zig build run
+exit
+zi nvim
+git status
+git add .
+git commit -m "did some things"
+git push
+git pull
+exit
+zig build -Doptimize=ReleaseSafe -Dtarget=x86_64-windows
+rm zig-out/
+rm -rf zig-out/
+zig build run
+git status
+git add .
+git commit -m "load-icon.png"
+git push
+zig build run
+git add .
+git commit -m "load icon button"
+git push
+cargo install heh
+heh zig-out/bin/pe
+git pull
+zig build run
+nvim .
+z ..
+mkdir app
+cd app
+ls
+zig init
+zig build run
+g 
+zig build run
+nvim .
+zig build run
+w
+zig build run
+pplay
+zi background
+zi noise
+nvim ~/.bashrc
+exit 1
+pplay
+exit 1
+zig build run
+exit 1
+zig build run
+exit
+git status
+git commit -am "load image into canvas"
+exit
+git push
+zig build run
+exit
+zig build run
+exit
+git status
+git commit -am "janky folder tree walking"
+git push
+exit
+nvim .
+exit
+git pull
+git checkout iced
+ls
+git pull
+cargo run
+exit
+cargo run
+exit
+cd ..
+ls
+cd app/
+zig build run
+exit
+zig build run
+cargo run
+./zig-out/bin/pe
+nvim .
+exit
+zi zion
+zig build run
+cargo run
+exit
+cargo run
+julia
+zi Aur
+ls
+z
+z Aur
+ls
+ls | filter {|x| $x.name starts-with "j"}
+julia
+cd julia
+cd julia-1.7.3/
+ls
+cd bin
+ls
+sudo cp julia /bin/.
+julia
+./julia
+sudo rm /bin/julia
+./julia
+exit
+cargo run
+exit
+cargo run
+exit
+cargo run
+git status
+git add .
+git commit -m "i give up for the night"
+git push
+exit
+exit 1
+nvim .
+git pull
+git checkout mouse
+git pull
+zig build run
+ls
+git diff
+git checkout .
+git checkout mouse
+git pull
+zig build run
+exit
+zig build run
+exit
+zig build run
+pword
+exit 1
+zig build run
+ipython
+python3
+zig build run
+git status
+rm test.png
+git add .
+git commit -m "frames added"
+git push
+zig build run
+pword
+exit 1
+ipython
+exit 1
+exit
+nvim .
+git pull
+git checkout .
+git pull
+zig build run
+cos(0)
+exit
+exit 1
+zig build run
+mod 1
+exit 1
+zig build run
+ipython
+nvim ~/.bashrc
+nvim $nu.config-path
+zig build run
+zig build -Doptimize=ReleaseSmall
+./zig-out/bin/pe
+zig build -Doptimize=ReleaseSafe -Dtarget=x86_64-windows
+nvim .
+git status
+git add .
+giti commit -m "fliping awesome!"
+git commit -m "fliping awesome!"
+git push
+nvim README.md
+git commit -am "update todo"
+git push
+exit
+ls
+zig build run
+zig build -Doptimize=ReleaseSmall
+file zig-out/bin/pe
+zig build -Doptimize=ReleaseSmall --help
+zig build -Doptimize=ReleaseSmall --static
+zig build -Doptimize=ReleaseSmall --libc=musl
+zig build -Doptimize=ReleaseSmall --libc musl
+zig build --libc musl
+zig build --libc=musl
+zig build -h
+zig build -Doptimize=ReleaseSafe -Dtarget=x86_64-linux-gnu
+sudo apt install libgl-dev libx11-dev
+sudo apt install libgl1-mesa-dev libx11-dev
+ls /usr/lib/x86_64-linux-gnu/libGL.a<\n>ls /usr/lib/x86_64-linux-gnu/libX11.a<\n>
+ls /usr/lib/x86_64-linux-gnu/libGL.a;<\n>ls /usr/lib/x86_64-linux-gnu/libX11.a<\n>
+<\n>ls /usr/lib/x86_64-linux-gnu/libX11.a<\n>
+zib build -Doptimize=ReleaseSafe -Dtarget=x86_64-linux-gnu --library-path /usr/lib/x86_64-linux-gnu/libX11.a
+zig build -Doptimize=ReleaseSafe -Dtarget=x86_64-linux-gnu --library-path /usr/lib/x86_64-linux-gnu/libX11.a
+zig build -Doptimize=ReleaseSafe -Dtarget=x86_64-linux
+zig build -Doptimize=ReleaseSafe
+zig build -lc -Doptimize=ReleaseSafe -Dtarget=x86_64-linux
+zig build -Doptimize=ReleaseSafe -Dtarget=x86_64-linux
+sudo apt install libgl1-mesa-dev xorg-dev
+ls /usr/lib/libGL.so;<\n>ls /usr/lib/libX11.so;
+ls /usr/lib/libX11.so
+sudo apt install libgl1-mesa-dev xorg-dev libx11-dev
+sudo apt update
+sudo apt upgrade
+echo $LIBRARY_PATH
+echo $env.LIBRARY_PATH
+exit 1
+exit
+echo $LD_LIBRARY_PATH
+exit  1
+zig build -Doptimize=ReleaseSafe -Dtarget=x86_64-linux
+sudo apt install libX11-dev
+sudo apt search libX11
+sudo apt install libx11-dev
+sudo apt search libgl
+sudo apt search libopengl
+sudo apt install libgl1-mesa-dev libx11-dev libxcursor-dev libxi-dev libxrandr-dev libxinerama-dev libpthread-stubs0-dev
+zig build -Doptimize=ReleaseSafe -Dtarget=x86_64-linux
+ssh server@192.168.1.147
+exit
+cd game-parts-with-raylib/
+ls
+cd largest-box-from-array-of-cells/
+ls
+zig build run
+zig build run
+sudo apt install libglfw3-dev
+zig build run
+exit 1
+nvim .
+exit
+ipython
+exit
+exit
+exit
+tmux a
+exit
+zi pixel
+zig build run
+tmux new -s PE
+cd ../game-parts-with-raylib/largest-box-from-array-of-cells/
+zig build -Doptimize=ReleaseSafe -Dtarget=x86_64-linux
+zig build run
+kkkkkkkka
+zig build run
+zig build run
+zi neolisp
+ls
+nvim .
+cargo run --release -- samples/fib.nl
+cargo run
+cargo run --help
+cargo run -- --help
+cargo run -- -r
+cloc .
+1900 - 255
+zig build run
+exit
+zi Download
+git clone git@github.com:cowboy8625/pixel-edit.git
+nvim .
+cd pixel-edit/
+nvim .
+zigup 0.12.0-dev.1859+27d4bf753
+zig build run
+exit
+zi snowc
+cloc .
+cargo run
+exit
+nvim .
+exit
+exit
+zigup 0.13.0
+zig build run
+zig build -Doptimize=ReleaseSafe -Dtarget=x86_64-windows
+zig build run
+ipython
+zig build run
+make run
+exit
+cargo run
+exit
+cargo run
+cargo run --release
+rusty-rain
+rusty-rain -c jap
+rusty-rain -c emojis
+rusty-rain -c moon
+exit
+exit
+cargo run
+exit
+cargo run
+exit
+cargo run
+exit
+vifm .
+exit
+exit
+zig build run
+exit
+zig build run
+exit
+zig build run
+libresprite 
+ipython
+zig  l
+zig build run
+exit
+zig build run
+nvim .
+zig build run
+exit
+ipython
+zig build run
+zig build runa
+zig build run
+exit
+zig build run
+zig build -Doptimize=ReleaseSafe -Dtarget=x86_64-linux
+zig build -Doptimize=ReleaseSmall
+exit
+zig build -Doptimize=ReleaseSmall
+zig build -Doptimize=ReleaseSmall run
+exit
+zig build  run
+tmux new -s rect
+zi neolisp
+nvim .
+cargo run
+cargo run -- samples/neolisp.nl
+cargo test
+cargo test -- test tests::lambda_environment
+cargo test -- tests::lambda_environment
+cargo test -- --help tests::lambda_environment
+cargo test -- --test tests::lambda_environment
+find ~ -name codelldb
+find -name codelldb ~
+find . -name codelldb
+find -h
+exit 1
+nvim .
+zig build  run
+exit
+zig build  run
+zig build run
+zig build run -- -d 32x64
+zig build run
+ipython
+ipthon
+clear; ipython
+deno
+deno run test.ts
+nvim test.ts
+exit
+zig build run
+nvim .
+zig build run
+zig build
+zig build run
+going-live "working on the game and tools"
+exit
+zig build run
+zig build run
+exit
+zig build run
+exit
+exit
+zig build run
+vifm ~/Downloads/
+exit 
+zig build run
+tmux new -s neolisp
+exit 1
+zig l
+zig build run
+fastfetch
+zig build run
+exit
+cloc .
+exit
+zig build run
+nvim
+zig build run
+i
+zig build run
+gt
+zig build run
+exit
+zig build run
+python3 -m pygame --version
+tmux a
+zi Py
+mkdir space
+cd space
+python3 --version
+python3.12 --version
+nvim README.md
+sudo apt update<\n>sudo apt install -y make build-essential libssl-dev zlib1g-dev \<\n>libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm \<\n>libncurses5-dev libncursesw5-dev xz-utils tk-dev libffi-dev liblzma-dev \<\n>python-openssl git<\n>
+exit 1
+eval "$(pyenv virturalenv-init -)"
+exit 1
+zig build run
+ls | filter {|x| $x.name ends-with ".md"}
+cd Documents
+ls | filter {|x| $x.name ends-with ".md"}
+ls | filter {|x| $x.name ends-with ".md"} | nvim
+ls | filter {|x| $x.name ends-with ".md"} | nvim {|x| $x.name}
+nvim Journal.md
+nvim info.md
+nvim RustNeoVim.md
+ls
+ls | filter {|x| $x.name ends-with ".txt"}
+nvim terminal.txt
+nvim newsboat
+newsboat
+exit 1
+zig build run
+nvim .
+git checkout .
+git checkout master
+git pull
+zig build run
+exit 1
+wasm-validate back.wasm
+cargo test
+git commit -am "update parser test"
+git push
+cargo test -- --test t
+cargo test -- --test wasm::opcode::tests::test_to_byts
+cargo test -- --test wasm::opcode::tests::test_to_bytes
+cargo test -- --test wasm::opcode
+cargo test -- --test r
+cargo test -- --test
+cargo test -- --test wasm::section::code::tests::test_code_block
+cargo test -- --test
+ls
+ls | sort-by modified
+ffplay `2024-08-16 17-38-41.mkv`
+rm `2024-08-16 17-38-41.mkv`
+zi Download
+<\n><\n>
+git clone --recursive https://github.com/obsproject/obs-studio.git
+mkdir build
+cd build
+cmake ..
+cmake
+cmake --help
+make
+exit
+ls -a
+cargo run -- -r
+cargo run -- -r 
+32 * 32
+64*64
+64 * 64
+4096 * 2
+4096 ** 2
+4096 % 16
+4096 mod 16
+4096 / 16
+256 mod 16
+56 mod 16
+python
+python3
+4096 / 16
+256 mod  16
+256 / 16
+4096 / 16
+256 / 16
+256 mod 16
+256 / 16
+ipython
+zig build run
+ipython
+zig build run
+wq
+zig build run
+wq
+zig build run
+zig build run -Doptimize=ReleaseSmall
+git status
+git add .
+git commit -m "item menu and things"
+git push
+zig build run
+zig fetch --save https://github.com/Not-Nik/raylib-zig/archive/devel.tar.gz
+zig build run
+git checkout build.zig.zon
+zig build run
+zig fetch --help
+zig fetch --save https://github.com/Not-Nik/raylib-zig/archive/devel.tar.gz
+zig build run
+rm -r .zig-cache/
+zig build run
+tmux n
+ls
+cd space/
+ls
+virtualenv -p python3.12 --python=python3.12.5 .
+ls
+ls bin
+ls
+ls -a
+rm -r pyvenv.cfg
+ls
+rm -r lib bin
+ls
+bat assets
+ls assets
+virtualenv -p python3.12 --python=python3.12.5 env
+ls
+ls env
+source env/bin/activate
+exit 1
+ls
+ls | sort-by modified
+ffpeg -i `2024-09-01 21-28-19.mkv` networking.mp4
+ffmpeg -i `2024-09-01 21-28-19.mkv` networking.mp4
+29 + 64
+exit 1
+0x1b - 0x1f
+exit
+0x40 - 64
+64 - 0x40
+0x40
+exit
+ls
+exit
+ls
+exit

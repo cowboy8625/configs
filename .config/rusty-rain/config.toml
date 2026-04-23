@@ -1,0 +1,13 @@
+shade_gradient = "#282c34"
+
+[custom.neovim]
+range = [
+  { start = 62319, end = 62320 },
+]
+width = 2
+
+[custom.rust]
+range = [
+  { start = 59304, end = 59305 },
+]
+width = 2

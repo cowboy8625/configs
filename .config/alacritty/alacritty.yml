@@ -1,0 +1,84 @@
+evn:
+    padding:
+        x: 6
+        y: 6
+    title: Hacking
+    class:
+        # Application instance name
+        instance: Hacking
+        # General application class
+        general: Hacking
+    offset:
+        x: 0
+        y: 0
+        draw_bold_text_with_bright_colors: true
+        # background_opacity: 0.85
+        # window.opacity: 0.8
+
+window:
+    # Window dimensions (changes require restart)
+    #
+    # Number of lines/columns (not pixels) in the terminal. The number of columns
+    # must be at least `2`, while using a value of `0` for columns and lines will
+    # fall back to the window manager's recommended size.
+    dimensions:
+        columns: 137
+        lines: 100
+
+
+# Font configuration (changes require restart)
+# Fira Mono
+# Fira Sans
+# Fira Sans Compressed
+# Fira Sans Condensed
+font:
+  # The size to use.
+  size: 14
+  # The normal (roman) font face to use.
+  normal:
+      family: SauceCodePro Nerd Font
+      # Style can be specified to pick a specific face.
+      style: Regular
+
+  # The bold font face
+  bold:
+    family: SauceCodePro Nerd Font
+    # Style can be specified to pick a specific face.
+    style: Bold
+
+  # The italic font face
+  italic:
+    family: SauceCodePro Nerd Font
+    # Style can be specified to pick a specific face.
+    style: Italic
+
+# # Colors (Gruvbox dark)
+colors:
+  # Default colors
+  primary:
+    # hard contrast: background = '#1d2021'
+    background: '#000000'
+    # soft contrast: background = '#32302f'
+    foreground: '#ebdbb2'
+
+  # Normal colors
+  normal:
+    black:   '#282828'
+    red:     '#cc241d'
+    green:   '#98971a'
+    yellow:  '#d79921'
+    blue:    '#458588'
+    magenta: '#b16286'
+    cyan:    '#689d6a'
+    white:   '#a89984'
+
+  # Bright colors
+  bright:
+    black:   '#928374'
+    red:     '#fb4934'
+    green:   '#b8bb26'
+    yellow:  '#fabd2f'
+    blue:    '#83a598'
+    magenta: '#d3869b'
+    cyan:    '#8ec07c'
+    white:   '#ebdbb2'

@@ -1,0 +1,7 @@
+vim.cmd [[ autocmd BufRead,BufNewFile *.snow set filetype=snow ]]
+vim.cmd [[ autocmd BufRead,BufNewFile *.snack set filetype=snack ]]
+vim.cmd [[ autocmd BufRead,BufNewFile *.a set filetype=a ]]
+vim.cmd [[ autocmd BufRead,BufNewFile *.tera set filetype=html ]]
+vim.cmd [[ autocmd BufRead,BufNewFile *.zon set filetype=zig ]]
+vim.cmd [[ autocmd BufRead,BufNewFile *.s set filetype=asm ]]
+-- vim.cmd [[ autocmd BufRead,BufNewFile *.nl set filetype=neolisp ]]
