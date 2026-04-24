@@ -9,95 +9,57 @@ vim.pack.add({
 	GH("Saghen/blink.cmp"),
 })
 
--- Mason
 require("mason").setup()
-
+require("mason-lspconfig").setup()
 require("mason-tool-installer").setup({
 	ensure_installed = {
-		-- LSPs
 		"lua_ls",
-		"pyright",
-		"typescript-language-server",
-		"gopls",
-		"rust_analyzer",
-		"clangd",
-
-		-- Formatters / linters
 		"stylua",
-		"prettier",
-		"black",
-		"isort",
-		"gofumpt",
-		"goimports",
-		"rustfmt",
-		"clang-format",
+		"clangd",
+		"gopls",
+		"pyright",
+		"rust_analyzer",
+		"cpplint",
+		"cpptools",
+		"ts_ls",
+		"elmls",
+		"cobol_ls",
+		"ols",
 	},
 })
 
--- Capabilities
-local capabilities = require("blink.cmp").get_lsp_capabilities()
-
--- LSP setup via mason-lspconfig
-require("mason-lspconfig").setup({
-	handlers = {
-		function(server_name)
-			vim.lsp.config(server_name, {
-				capabilities = capabilities,
-				flags = {
-					debounce_text_changes = 150,
+vim.lsp.config("lua_ls", {
+	settings = {
+		Lua = {
+			runtime = {
+				version = "LuaJIT",
+			},
+			diagnostics = {
+				globals = {
+					"vim",
+					"require",
 				},
-			})
-		end,
-
-		["lua_ls"] = function()
-			vim.lsp.config("lua_ls", {
-				capabilities = capabilities,
-				flags = {
-					debounce_text_changes = 150,
-				},
-				settings = {
-					Lua = {
-						runtime = { version = "LuaJIT" },
-						diagnostics = {
-							globals = { "vim", "require" },
-						},
-						workspace = {
-							library = vim.api.nvim_get_runtime_file("", true),
-						},
-						telemetry = { enable = false },
-					},
-				},
-			})
-		end,
-
-		["clangd"] = function()
-			vim.lsp.config("clangd", {
-				capabilities = capabilities,
-				cmd = { "clangd", "--background-index", "--clang-tidy" },
-				flags = {
-					debounce_text_changes = 150,
-				},
-			})
-		end,
+			},
+			workspace = {
+				library = vim.api.nvim_get_runtime_file("", true),
+			},
+			telemetry = {
+				enable = false,
+			},
+		},
 	},
 })
 
--- Snippets
 require("luasnip.loaders.from_vscode").lazy_load()
-
--- Completion
 require("blink.cmp").setup({
 	signature = { enabled = true },
 	fuzzy = { implementation = "lua" },
-
 	completion = {
-		documentation = {
-			auto_show = true,
-			auto_show_delay_ms = 300,
-		},
+		documentation = { auto_show = true, auto_show_delay_ms = 500 },
 		menu = {
 			auto_show = true,
 			draw = {
+				-- treesitter = { "lsp" },
 				columns = {
 					{ "kind_icon", "label", "label_description", gap = 1 },
 					{ "kind" },
@@ -107,20 +69,6 @@ require("blink.cmp").setup({
 	},
 })
 
--- Diagnostics
-vim.diagnostic.config({
-	virtual_text = false,
-	signs = true,
-	underline = true,
-	update_in_insert = false,
-	severity_sort = true,
-	float = {
-		border = "rounded",
-		source = true,
-	},
-})
-
--- LSP Attach
 vim.api.nvim_create_autocmd("LspAttach", {
 	callback = function(args)
 		local client = vim.lsp.get_client_by_id(args.data.client_id)
@@ -128,32 +76,78 @@ vim.api.nvim_create_autocmd("LspAttach", {
 			return
 		end
 
-		local map = function(keys, func)
-			vim.keymap.set("n", keys, func, { buffer = args.buf })
-		end
-
-		map("gd", vim.lsp.buf.definition)
-		map("gr", vim.lsp.buf.references)
-		map("gi", vim.lsp.buf.implementation)
-		map("K", vim.lsp.buf.hover)
-		map("<leader>rn", vim.lsp.buf.rename)
-		map("<leader>ca", vim.lsp.buf.code_action)
-		map("<leader>d", vim.diagnostic.open_float)
-		map("[d", vim.diagnostic.goto_prev)
-		map("]d", vim.diagnostic.goto_next)
-
 		if client:supports_method("textDocument/formatting") then
 			vim.api.nvim_create_autocmd("BufWritePre", {
 				buffer = args.buf,
 				callback = function()
-					vim.lsp.buf.format({
-						bufnr = args.buf,
-						filter = function(c)
-							return c.name ~= "typescript-language-server"
-						end,
-					})
+					vim.lsp.buf.format({ bufnr = args.buf, id = client.id })
 				end,
 			})
 		end
 	end,
 })
+
+-- -- ================================================================================================
+-- --                                    LSP Keymaps
+-- -- ================================================================================================
+
+vim.api.nvim_create_autocmd("LspAttach", {
+	callback = function(event)
+		local opts = { buffer = event.buf }
+
+		-- Navigation
+		vim.keymap.set("n", "gd", vim.lsp.buf.definition, opts)
+		vim.keymap.set("n", "gD", vim.lsp.buf.declaration, opts)
+		vim.keymap.set("n", "gr", vim.lsp.buf.references, opts)
+		vim.keymap.set("n", "gi", vim.lsp.buf.implementation, opts)
+
+		-- Information
+		vim.keymap.set("n", "K", vim.lsp.buf.hover, opts)
+		vim.keymap.set("n", "<C-k>", vim.lsp.buf.signature_help, opts)
+
+		-- Code actions
+		vim.keymap.set("n", "<leader>ca", vim.lsp.buf.code_action, opts)
+		vim.keymap.set("n", "<leader>rn", vim.lsp.buf.rename, opts)
+
+		-- Diagnostics
+		vim.keymap.set("n", "<leader>dn", function()
+			vim.diagnostic.jump({ count = 1 })
+		end, opts)
+		vim.keymap.set("n", "<leader>dp", function()
+			vim.diagnostic.jump({ count = -1 })
+		end, opts)
+		vim.keymap.set("n", "<leader>q", vim.diagnostic.setloclist, opts)
+		vim.keymap.set("n", "<leader>e", vim.diagnostic.open_float, { desc = "Show diagnostic message" })
+	end,
+})
+
+-- Better LSP UI
+vim.diagnostic.config({
+	virtual_text = { prefix = "●" },
+	signs = true,
+	underline = true,
+	update_in_insert = false,
+	severity_sort = true,
+})
+
+vim.diagnostic.config({
+	signs = {
+		text = {
+			[vim.diagnostic.severity.ERROR] = "✗",
+			[vim.diagnostic.severity.WARN] = "⚠",
+			[vim.diagnostic.severity.INFO] = "ℹ",
+			[vim.diagnostic.severity.HINT] = "💡",
+		},
+	},
+})
+
+vim.api.nvim_create_user_command("LspInfo", function()
+	local clients = vim.lsp.get_clients({ bufnr = 0 })
+	if #clients == 0 then
+		print("No LSP clients attached to current buffer")
+	else
+		for _, client in ipairs(clients) do
+			print("LSP: " .. client.name .. " (ID: " .. client.id .. ")")
+		end
+	end
+end, { desc = "Show LSP client info" })

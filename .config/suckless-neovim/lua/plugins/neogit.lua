@@ -1,13 +1,13 @@
 vim.pack.add({
-  -- Dependency's
-  GH("nvim-lua/plenary.nvim"),
-  -- Plugin
-  GH("NeogitOrg/neogit"),
+	-- Dependency's
+	GH("nvim-lua/plenary.nvim"),
+	-- Plugin
+	GH("NeogitOrg/neogit"),
 })
 
 -- Setup
 require("neogit").setup({
-  disable_hint = true,
+	disable_hint = true,
 })
 
 -- Keybindings
