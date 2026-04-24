@@ -2,13 +2,6 @@ vim.pack.add({
 	{ src = GH("mfussenegger/nvim-dap") },
 	{ src = GH("rcarriga/nvim-dap-ui") },
 	{ src = GH("nvim-neotest/nvim-nio") },
-
-	-- JS debugging
-	-- {
-	--     src = GH("microsoft/vscode-js-debug"),
-	--     version = "1.*",
-	--     build = "npm install --legacy-peer-deps --no-save && npx gulp vsDebugServerBundle && rm -rf out && mv dist out",
-	-- },
 	{ src = GH("mxsdev/nvim-dap-vscode-js") },
 
 	-- Go
@@ -16,9 +9,6 @@ vim.pack.add({
 
 	-- Python
 	{ src = GH("mfussenegger/nvim-dap-python") },
-
-	-- JSON5 for launch.json
-	-- { src = GH("Joakker/lua-json5"),                build = "./install.sh" },
 
 	-- Optional but nice
 	{ src = GH("nvim-telescope/telescope.nvim") },
@@ -51,8 +41,6 @@ end
 dap.listeners.before.event_exited["dapui"] = function()
 	dapui.close()
 end
-
---- require("dap.ext.vscode").json_decode = require("json5").parse
 
 local detect = require("plugins.debugger.detect")
 local loader = require("plugins.debugger.loader")
