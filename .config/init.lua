@@ -1,1 +1,0 @@
-obsidian-neovim/init.lua
