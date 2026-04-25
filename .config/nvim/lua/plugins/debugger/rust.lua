@@ -1,95 +1,3 @@
--- local function get_cargo_metadata()
--- 	local output = vim.fn.system("cargo metadata --no-deps --format-version 1")
--- 	if vim.v.shell_error ~= 0 then
--- 		vim.notify("cargo metadata failed", vim.log.levels.ERROR)
--- 		return nil
--- 	end
--- 	return vim.json.decode(output)
--- end
---
--- local function get_targets()
--- 	local metadata = get_cargo_metadata()
--- 	if not metadata then
--- 		return {}
--- 	end
---
--- 	local targets = {}
---
--- 	for _, pkg in ipairs(metadata.packages) do
--- 		for _, target in ipairs(pkg.targets) do
--- 			if vim.tbl_contains(target.kind, "bin") or vim.tbl_contains(target.kind, "example") then
--- 				table.insert(targets, target.name)
--- 			end
--- 		end
--- 	end
---
--- 	return targets
--- end
---
--- local function pick_target(targets)
--- 	if #targets == 0 then
--- 		vim.notify("No runnable Rust targets found", vim.log.levels.ERROR)
--- 		return nil
--- 	end
---
--- 	if #targets == 1 then
--- 		return targets[1]
--- 	end
---
--- 	local t = {}
--- 	for k, v in ipairs(targets) do
--- 		table.insert(t, tostring(k) .. ": " .. v)
--- 	end
---
--- 	local options = vim.list_extend({ "Select target:" }, t)
--- 	local choice = vim.fn.inputlist(options)
---
--- 	if choice < 1 or choice > #targets then
--- 		return nil
--- 	end
---
--- 	return targets[choice]
--- end
---
--- local function get_executable()
--- 	local targets = get_targets()
--- 	local choice = pick_target(targets)
---
--- 	if not choice then
--- 		return nil
--- 	end
---
--- 	vim.notify("Building " .. choice)
---
--- 	local is_example = vim.fn.filereadable("examples/" .. choice .. ".rs") == 1
---
--- 	local cmd
--- 	if is_example then
--- 		cmd = "cargo build --example " .. choice
--- 	else
--- 		cmd = "cargo build --bin " .. choice
--- 	end
---
--- 	vim.fn.system(cmd)
---
--- 	if vim.v.shell_error ~= 0 then
--- 		vim.notify("Build failed: " .. cmd, vim.log.levels.ERROR)
--- 		return nil
--- 	end
---
--- 	local path
--- 	if is_example then
--- 		path = "target/debug/examples/" .. choice
--- 	else
--- 		path = "target/debug/" .. choice
--- 	end
---
--- 	local full_path = vim.fn.getcwd() .. "/" .. path
---
--- 	print("DAP program:", full_path)
---
--- 	return full_path
--- end
 local rust_utils = require("plugins.debugger.rust_utils")
 
 local function get_executable()
@@ -134,14 +42,122 @@ local function get_executable()
   return coroutine.yield()
 end
 
+local function build_test_exes()
+  local result = vim
+    .system({
+      "cargo",
+      "test",
+      "--workspace",
+      "--no-run",
+      "--message-format=json",
+    }, { text = true })
+    :wait()
+
+  local executables = {}
+
+  if result.code ~= 0 then
+    error(result.stderr, 4)
+  end
+
+  for _, line in ipairs(vim.split(result.stdout, "\n")) do
+    local ok, obj = pcall(vim.json.decode, line)
+    if ok and obj.profile and obj.profile.test and obj.executable then
+      table.insert(executables, {
+        name = obj.target.name,
+        package = obj.package_id,
+        executable = obj.executable,
+      })
+    end
+  end
+
+  return executables
+end
+
+local function get_tests_data()
+  local result = vim
+    .system({ "cargo", "test", "-q", "--workspace", "--message-format=json", "--", "--list" }, { text = true })
+    :wait()
+
+  if result.code ~= 0 then
+    vim.notify("Failed to get test names: " .. (result.stderr or "unknown error"), vim.log.levels.ERROR)
+    return
+  end
+
+  local tests = {}
+
+  if result.code ~= 0 then
+    error(result.stderr, 4)
+  end
+
+  for _, line in ipairs(vim.split(result.stdout, "\n")) do
+    local ok, obj = pcall(vim.json.decode, line)
+    if ok and obj.profile and obj.profile.test and obj.executable ~= vim.NIL then
+      table.insert(tests, {
+        name = obj.target.name,
+        package = obj.package_id,
+        executable = obj.executable,
+      })
+    end
+  end
+
+  return tests
+end
+
+local function get_tests_for_exe(exe)
+  local result = vim.system({ exe, "--list" }, { text = true }):wait()
+
+  local tests = {}
+  for _, line in ipairs(vim.split(result.stdout, "\n")) do
+    local name = line:match("^(.-): test$")
+    if name then
+      table.insert(tests, name)
+    end
+  end
+
+  return tests
+end
+
+local function get_test_names()
+  local result = vim
+    .system({ "sh", "-c", "cargo test -q --workspace -- --list | sed -n 's/: test$//p'" }, { text = true })
+    :wait()
+
+  if result.code ~= 0 then
+    vim.notify("Failed to get test names: " .. (result.stderr or "unknown error"), vim.log.levels.ERROR)
+    return
+  end
+
+  return vim.split(vim.trim(result.stdout), "\n")
+end
+
+local function create_test_to_binary_map()
+  local tests_data = get_tests_data()
+  if tests_data == nil then
+    error("no test data", 4)
+    return
+  end
+  local data = {}
+  for _, value in ipairs(tests_data) do
+    local tests = get_tests_for_exe(value.executable)
+    for _, test in pairs(tests) do
+      if data[test] == nil then
+        data[test] = value.executable
+      end
+    end
+  end
+  return data
+end
+
 local dap = require("dap")
 local last_args = ""
+local args = {}
 
 dap.configurations.rust = {
   {
     name = "Debug cargo",
     type = "codelldb",
     request = "launch",
+    mode = "test",
     program = get_executable,
     args = function()
       local input = vim.fn.input("Args: ", last_args)
@@ -150,6 +166,43 @@ dap.configurations.rust = {
         return {}
       end
       return vim.split(input, "%s+")
+    end,
+    cwd = "${workspaceFolder}",
+  },
+  {
+    name = "Debug test",
+    type = "codelldb",
+    request = "launch",
+    mode = "test",
+    program = function()
+      local names = get_test_names()
+      local co = coroutine.running()
+      require("plugins.utils.picker").pick(names or {}, function(entry)
+        return {
+          value = entry,
+          display = entry,
+          ordinal = entry,
+        }
+      end, function(selected)
+        coroutine.resume(co, selected.value)
+      end)
+      build_test_exes()
+      local test_name = coroutine.yield()
+      local map = create_test_to_binary_map()
+      if map ~= nil and map[test_name] == nil then
+        error("no executable found for test: " .. test_name, 4)
+        return
+      end
+      if map == nil then
+        error("no test executables found", 4)
+        return
+      end
+      args = { "--test", test_name }
+
+      return map[test_name]
+    end,
+    args = function()
+      return args
     end,
     cwd = "${workspaceFolder}",
   },

@@ -300,19 +300,13 @@ alias mcfile="cd /home/cowboy/.var/app/com.mojang.Minecraft/data/minecraft";
 alias irust="evcxr";
 alias python="python3";
 alias ls="exa --icons";
-alias lang="cd ~/Documents/Rust/languages";
-alias rust="cd ~/Documents/Rust";
 alias update="sudo apt update && sudo apt upgrade && sudo apt autoremove && sudo apt clean && sudo apt autoclean && snap refresh && flatpak update && rustup update";
-alias cook="cd ~/Documents/CookBook";
-alias pword="nvim ~/Documents/cnffjbeqf.md";
 alias :q="exit";
 alias vlc="vlc --sout-all --sout \"#duplicate{dst=display}\"";
 alias mirror="xrandr --output DP-4 --same-as HDMI-0";
 alias mirror-off="xrandr --output DP-4 --right-of HDMI-0";
 alias get-image-dim="ffmpeg -i image.jpg 2>&1 | grep 'Stream' | grep -oP '\d+x\d+'";
-alias svim="NVIM_APPNAME=suckless-neovim nvim";
-alias nnvim="NVIM_APPNAME=new-nvim-0.12.0 nvim";
-alias ovim="NVIM_APPNAME=obsidian-neovim nvim";
+alias oviwrite="NVIM_APPNAME=oviwrite nvim";
 
 
 # Set Editor

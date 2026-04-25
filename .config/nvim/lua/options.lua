@@ -5,6 +5,7 @@ vim.opt.relativenumber = true -- Relative line numbers
 vim.opt.cursorline = true -- Highlight current line
 vim.opt.cursorcolumn = true -- Highlight current column
 vim.opt.wrap = false -- Don't wrap lines
+vim.opt.linebreak = true -- Break lines at word boundaries
 vim.opt.scrolloff = 10 -- Keep 10 lines above/below cursor
 vim.opt.sidescrolloff = 8 -- Keep 8 columns left/right of cursor
 
@@ -71,7 +72,7 @@ vim.opt.encoding = "UTF-8" -- Set encoding
 
 -- Folding settings
 vim.opt.foldmethod = "expr" -- Use expression for folding
--- vim.wo.vim.foldexpr = "v:lua.vim.treesitter.foldexpr()" -- Use treesitter for folding
+vim.wo.vim.foldexpr = "v:lua.vim.treesitter.foldexpr()" -- Use treesitter for folding
 vim.opt.foldlevel = 99 -- Start with all folds open
 
 -- Split behavior
