@@ -1,124 +1,124 @@
 vim.pack.add({
-	{ src = GH("mfussenegger/nvim-dap") },
-	{ src = GH("rcarriga/nvim-dap-ui") },
-	{ src = GH("nvim-neotest/nvim-nio") },
+  { src = GH("mfussenegger/nvim-dap") },
+  { src = GH("rcarriga/nvim-dap-ui") },
+  { src = GH("nvim-neotest/nvim-nio") },
 
-	-- JS debugging
-	{
-		src = GH("microsoft/vscode-js-debug"),
-		version = "1.*",
-		build = "npm install --legacy-peer-deps --no-save && npx gulp vsDebugServerBundle && rm -rf out && mv dist out",
-	},
-	{ src = GH("mxsdev/nvim-dap-vscode-js") },
+  -- JS debugging
+  {
+    src = GH("microsoft/vscode-js-debug"),
+    version = "1.*",
+    build = "npm install --legacy-peer-deps --no-save && npx gulp vsDebugServerBundle && rm -rf out && mv dist out",
+  },
+  { src = GH("mxsdev/nvim-dap-vscode-js") },
 
-	-- Go
-	{ src = GH("leoluz/nvim-dap-go") },
+  -- Go
+  { src = GH("leoluz/nvim-dap-go") },
 
-	-- Python
-	{ src = GH("mfussenegger/nvim-dap-python") },
+  -- Python
+  { src = GH("mfussenegger/nvim-dap-python") },
 
-	-- JSON5 for launch.json
-	{ src = GH("Joakker/lua-json5"), build = "./install.sh" },
+  -- JSON5 for launch.json
+  { src = GH("Joakker/lua-json5"), build = "./install.sh" },
 
-	-- Optional but nice
-	{ src = GH("nvim-telescope/telescope.nvim") },
-	{ src = GH("nvim-telescope/telescope-dap.nvim") },
+  -- Optional but nice
+  { src = GH("nvim-telescope/telescope.nvim") },
+  { src = GH("nvim-telescope/telescope-dap.nvim") },
 })
 
 local dap = require("dap")
 local dapui = require("dapui")
 
 require("dapui").setup({
-	icons = { expanded = "▾", collapsed = "▸", current_frame = "*" },
+  icons = { expanded = "▾", collapsed = "▸", current_frame = "*" },
 })
 
 vim.fn.sign_define("DapBreakpoint", {
-	text = "🔴",
-	texthl = "DiagnosticSignError",
+  text = "🔴",
+  texthl = "DiagnosticSignError",
 })
 vim.fn.sign_define("DapStopped", {
-	text = "👉",
-	texthl = "DiagnosticSignWarn",
-	linehl = "Visual",
+  text = "👉",
+  texthl = "DiagnosticSignWarn",
+  linehl = "Visual",
 })
 
 dap.listeners.after.event_initialized["dapui"] = function()
-	dapui.open()
+  dapui.open()
 end
 dap.listeners.before.event_terminated["dapui"] = function()
-	dapui.close()
+  dapui.close()
 end
 dap.listeners.before.event_exited["dapui"] = function()
-	dapui.close()
+  dapui.close()
 end
 
 require("dap.ext.vscode").json_decode = require("json5").parse
 
 require("dap-vscode-js").setup({
-	debugger_path = vim.fn.stdpath("data") .. "/site/pack/core/opt/vscode-js-debug",
-	adapters = {
-		"pwa-node",
-		"pwa-chrome",
-		"node-terminal",
-		"pwa-extensionHost",
-	},
+  debugger_path = vim.fn.stdpath("data") .. "/site/pack/core/opt/vscode-js-debug",
+  adapters = {
+    "pwa-node",
+    "pwa-chrome",
+    "node-terminal",
+    "pwa-extensionHost",
+  },
 })
 
 local js_languages = {
-	"javascript",
-	"typescript",
-	"javascriptreact",
-	"typescriptreact",
-	"vue",
+  "javascript",
+  "typescript",
+  "javascriptreact",
+  "typescriptreact",
+  "vue",
 }
 
 for _, lang in ipairs(js_languages) do
-	dap.configurations[lang] = {
-		{
-			type = "pwa-node",
-			request = "launch",
-			name = "Launch file",
-			program = "${file}",
-			cwd = "${workspaceFolder}",
-			sourceMaps = true,
-		},
-		{
-			type = "pwa-node",
-			request = "attach",
-			name = "Attach (9229)",
-			processId = require("dap.utils").pick_process,
-			cwd = "${workspaceFolder}",
-			port = 9229,
-		},
-		{
-			type = "pwa-node",
-			request = "launch",
-			name = "Run tsx script",
-			runtimeExecutable = "node",
-			runtimeArgs = { "--import", "tsx" },
-			program = "${file}",
-			cwd = "${workspaceFolder}",
-			console = "integratedTerminal",
-		},
-		{
-			type = "pwa-chrome",
-			request = "launch",
-			name = "Chrome: localhost",
-			url = "http://localhost:3000",
-			webRoot = "${workspaceFolder}",
-		},
-	}
+  dap.configurations[lang] = {
+    {
+      type = "pwa-node",
+      request = "launch",
+      name = "Launch file",
+      program = "${file}",
+      cwd = "${workspaceFolder}",
+      sourceMaps = true,
+    },
+    {
+      type = "pwa-node",
+      request = "attach",
+      name = "Attach (9229)",
+      processId = require("dap.utils").pick_process,
+      cwd = "${workspaceFolder}",
+      port = 9229,
+    },
+    {
+      type = "pwa-node",
+      request = "launch",
+      name = "Run tsx script",
+      runtimeExecutable = "node",
+      runtimeArgs = { "--import", "tsx" },
+      program = "${file}",
+      cwd = "${workspaceFolder}",
+      console = "integratedTerminal",
+    },
+    {
+      type = "pwa-chrome",
+      request = "launch",
+      name = "Chrome: localhost",
+      url = "http://localhost:3000",
+      webRoot = "${workspaceFolder}",
+    },
+  }
 end
 
 require("dap.ext.vscode").load_launchjs(nil, {
-	["pwa-node"] = js_languages,
-	["pwa-chrome"] = js_languages,
+  ["pwa-node"] = js_languages,
+  ["pwa-chrome"] = js_languages,
 })
 
 require("dap-go").setup({
-	delve = {
-		detached = vim.fn.has("win32") == 0,
-	},
+  delve = {
+    detached = vim.fn.has("win32") == 0,
+  },
 })
 
 vim.keymap.set("n", "<F5>", dap.continue)
@@ -128,7 +128,7 @@ vim.keymap.set("n", "<F3>", dap.step_out)
 
 vim.keymap.set("n", "<leader>b", dap.toggle_breakpoint)
 vim.keymap.set("n", "<leader>B", function()
-	dap.set_breakpoint(vim.fn.input("Condition: "))
+  dap.set_breakpoint(vim.fn.input("Condition: "))
 end)
 
 vim.keymap.set("n", "<F7>", dapui.toggle)

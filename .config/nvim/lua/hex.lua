@@ -1,4 +1,4 @@
-function ConvertNumberUnderCursorToHex()
+function convert_number_under_cursor_to_hex()
   local word = vim.fn.expand("<cword>")
   local num = tonumber(word)
   if num then
@@ -12,6 +12,6 @@ end
 vim.api.nvim_set_keymap(
   "n",
   "<leader>xh",
-  ":lua ConvertNumberUnderCursorToHex()<CR>",
+  ":lua convert_number_under_cursor_to_hex()<CR>",
   { noremap = true, silent = true }
 )

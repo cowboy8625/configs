@@ -1,4 +1,4 @@
-vim.pack.add({GH("NTBBloodbath/doom-one.nvim")})
+vim.pack.add({ GH("NTBBloodbath/doom-one.nvim") })
 require("doom-one").setup = function()
   -- Add color to cursor
   vim.g.doom_one_cursor_coloring = true

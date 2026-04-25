@@ -93,83 +93,83 @@
 local rust_utils = require("plugins.debugger.rust_utils")
 
 local function get_executable()
-	local co = coroutine.running()
+  local co = coroutine.running()
 
-	rust_utils.pick_target(function(target)
-		if not target then
-			coroutine.resume(co, nil)
-			return
-		end
+  rust_utils.pick_target(function(target)
+    if not target then
+      coroutine.resume(co, nil)
+      return
+    end
 
-		vim.notify("Building " .. target.name)
+    vim.notify("Building " .. target.name)
 
-		local cmd
-		if target.kind == "example" then
-			cmd = "cargo build --example " .. target.name
-		else
-			cmd = "cargo build --bin " .. target.name
-		end
+    local cmd
+    if target.kind == "example" then
+      cmd = "cargo build --example " .. target.name
+    else
+      cmd = "cargo build --bin " .. target.name
+    end
 
-		vim.fn.system(cmd)
+    vim.fn.system(cmd)
 
-		if vim.v.shell_error ~= 0 then
-			vim.notify("Build failed", vim.log.levels.ERROR)
-			coroutine.resume(co, nil)
-			return
-		end
+    if vim.v.shell_error ~= 0 then
+      vim.notify("Build failed", vim.log.levels.ERROR)
+      coroutine.resume(co, nil)
+      return
+    end
 
-		local path
-		if target.kind == "example" then
-			path = "target/debug/examples/" .. target.name
-		else
-			path = "target/debug/" .. target.name
-		end
+    local path
+    if target.kind == "example" then
+      path = "target/debug/examples/" .. target.name
+    else
+      path = "target/debug/" .. target.name
+    end
 
-		local full_path = vim.fn.getcwd() .. "/" .. path
-		print("DAP program:", full_path)
+    local full_path = vim.fn.getcwd() .. "/" .. path
+    print("DAP program:", full_path)
 
-		coroutine.resume(co, full_path)
-	end)
+    coroutine.resume(co, full_path)
+  end)
 
-	return coroutine.yield()
+  return coroutine.yield()
 end
 
 local dap = require("dap")
 local last_args = ""
 
 dap.configurations.rust = {
-	{
-		name = "Debug cargo",
-		type = "codelldb",
-		request = "launch",
-		program = get_executable,
-		args = function()
-			local input = vim.fn.input("Args: ", last_args)
-			last_args = input or ""
-			if last_args == "" then
-				return {}
-			end
-			return vim.split(input, "%s+")
-		end,
-		cwd = "${workspaceFolder}",
-	},
-	{
-		name = "Launch Rust (codelldb)",
-		type = "codelldb",
-		request = "launch",
-		program = function()
-			return vim.fn.input("Path to executable: ", vim.fn.getcwd() .. "/target/debug/", "file")
-		end,
-		cwd = "${workspaceFolder}",
-		stopOnEntry = false,
-	},
+  {
+    name = "Debug cargo",
+    type = "codelldb",
+    request = "launch",
+    program = get_executable,
+    args = function()
+      local input = vim.fn.input("Args: ", last_args)
+      last_args = input or ""
+      if last_args == "" then
+        return {}
+      end
+      return vim.split(input, "%s+")
+    end,
+    cwd = "${workspaceFolder}",
+  },
+  {
+    name = "Launch Rust (codelldb)",
+    type = "codelldb",
+    request = "launch",
+    program = function()
+      return vim.fn.input("Path to executable: ", vim.fn.getcwd() .. "/target/debug/", "file")
+    end,
+    cwd = "${workspaceFolder}",
+    stopOnEntry = false,
+  },
 }
 
 dap.adapters.codelldb = {
-	type = "server",
-	port = "${port}",
-	executable = {
-		command = "codelldb", -- make sure it's in PATH
-		args = { "--port", "${port}" },
-	},
+  type = "server",
+  port = "${port}",
+  executable = {
+    command = "codelldb", -- make sure it's in PATH
+    args = { "--port", "${port}" },
+  },
 }

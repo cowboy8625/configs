@@ -1,18 +1,18 @@
-vim.pack.add({GH(  'nvim-lualine/lualine.nvim')})
-require('lualine').setup({
-      options = {
-        icons_enabled = true,
-        theme = 'gruvbox',
+vim.pack.add({ GH("nvim-lualine/lualine.nvim") })
+require("lualine").setup({
+  options = {
+    icons_enabled = true,
+    theme = "gruvbox",
+  },
+  sections = {
+    lualine_a = {
+      {
+        "filename",
+        path = 1,
       },
-      sections = {
-        lualine_a = {
-          {
-            'filename',
-            path = 1,
-          },
-        },
-      },
-    })
+    },
+  },
+})
 -- ============================================================================
 -- STATUSLINE
 -- ============================================================================
