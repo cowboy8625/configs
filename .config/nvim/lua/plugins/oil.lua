@@ -1,6 +1,5 @@
 vim.api.nvim_create_autocmd("BufWritePre", {
   callback = function(info)
-    print("BufWritePre: " .. info.match)
     if info.match == "oil" then
       return
     end

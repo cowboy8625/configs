@@ -72,7 +72,7 @@ vim.opt.encoding = "UTF-8" -- Set encoding
 
 -- Folding settings
 vim.opt.foldmethod = "expr" -- Use expression for folding
-vim.wo.vim.foldexpr = "v:lua.vim.treesitter.foldexpr()" -- Use treesitter for folding
+-- vim.wo.vim.foldexpr = "v:lua.vim.treesitter.foldexpr()" -- Use treesitter for folding
 vim.opt.foldlevel = 99 -- Start with all folds open
 
 -- Split behavior

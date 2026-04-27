@@ -263,7 +263,7 @@ function edit-emacs() {
 
 function edit-bash() {
   START=$PWD;
-  cd ~/dotfiles ; nvim .bashrc ; cd $START;
+  cd ~/configs ; nvim .bashrc ; cd $START;
 }
 
 function going-live() {

@@ -1,5 +1,3 @@
-print("Setting Go filetype options")
-
 -- vim.cmd([[
 --   augroup GoSettings
 --     autocmd!

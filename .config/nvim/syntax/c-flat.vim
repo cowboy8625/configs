@@ -10,7 +10,7 @@ syn keyword aKeyword if else defmacro
 syn keyword aKeyword true false use
 syn keyword aKeyword or and let in const pub
 syn keyword aKeyword fn struct enum union type
-syn keyword aKeyword return
+syn keyword aKeyword return extern
 
 hi link aKeyword Keyword
 
