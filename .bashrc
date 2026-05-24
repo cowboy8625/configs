@@ -253,7 +253,7 @@ function timer-with-message() {
 
 function edit-nvim() {
   START=$PWD;
-  cd ~/dotfiles/.config/nvim ; nvim init.lua ; cd $START;
+  cd ~/configs/.config/nvim ; nvim init.lua ; cd $START;
 }
 
 function edit-emacs() {
@@ -390,3 +390,7 @@ dotnet=/bin/dotnet
 if [ -f "$HOME/.config/secrets/env" ]; then
   source "$HOME/.config/secrets/env"
 fi
+source "$HOME/Aur/emsdk/emsdk_env.sh"
+
+source '/home/cowboy/.bash_completions/zmk.sh'
+

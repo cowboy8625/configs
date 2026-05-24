@@ -3,6 +3,7 @@ vim.pack.add({
   GH("cowboy8625/epoc.nvim"),
   GH("lewis6991/gitsigns.nvim"),
   GH("stevearc/quicker.nvim"),
+  GH("MeanderingProgrammer/render-markdown.nvim"),
 })
 
 require("case-swap").setup()
@@ -14,8 +15,10 @@ require("plugins.oil")
 require("plugins.neogit")
 require("plugins.telescope")
 require("plugins.debugger.init")
-require("plugins.treesitter")
-require("plugins.copilot")
+if not IS_OS("Windows") then
+  require("plugins.treesitter")
+  require("plugins.copilot")
+end
 require("plugins.conform")
 
 vim.api.nvim_create_user_command("PackDel", function()

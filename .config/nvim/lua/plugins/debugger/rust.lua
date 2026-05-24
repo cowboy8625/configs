@@ -9,13 +9,15 @@ local function get_executable()
       return
     end
 
-    vim.notify("Building " .. target.name)
+    local name = target.value.name or "unknown name"
+    local kind = target.value.kind or "unknown kind"
+    vim.notify("Building " .. name)
 
     local cmd
-    if target.kind == "example" then
-      cmd = "cargo build --example " .. target.name
+    if kind == "example" then
+      cmd = "cargo build --example " .. name
     else
-      cmd = "cargo build --bin " .. target.name
+      cmd = "cargo build --bin " .. name
     end
 
     vim.fn.system(cmd)
@@ -27,10 +29,10 @@ local function get_executable()
     end
 
     local path
-    if target.kind == "example" then
-      path = "target/debug/examples/" .. target.name
+    if kind == "example" then
+      path = "target/debug/examples/" .. name
     else
-      path = "target/debug/" .. target.name
+      path = "target/debug/" .. name
     end
 
     local full_path = vim.fn.getcwd() .. "/" .. path
@@ -148,9 +150,60 @@ local function create_test_to_binary_map()
   return data
 end
 
+local function parseArgs(s)
+  local args = {}
+  local i = 1
+
+  while i <= #s do
+    -- Skip whitespace
+    while i <= #s and s:sub(i, i):match("%s") do
+      i = i + 1
+    end
+
+    if i > #s then
+      break
+    end
+
+    local arg = ""
+
+    -- Check if this token starts with a quote
+    if s:sub(i, i) == '"' then
+      i = i + 1 -- Skip opening quote
+      while i <= #s and s:sub(i, i) ~= '"' do
+        arg = arg .. s:sub(i, i)
+        i = i + 1
+      end
+      i = i + 1 -- Skip closing quote
+    else
+      -- Regular token (non-quoted)
+      while i <= #s and not s:sub(i, i):match("%s") and s:sub(i, i) ~= '"' do
+        arg = arg .. s:sub(i, i)
+        i = i + 1
+      end
+    end
+
+    if arg ~= "" then
+      table.insert(args, arg)
+    end
+  end
+
+  return args
+end
+
 local dap = require("dap")
 local last_args = ""
 local args = {}
+
+dap.adapters.codelldb = {
+  type = "server",
+  port = "${port}",
+  executable = {
+    command = "codelldb",
+    -- command = "/home/cowboy/.local/share/nvim/mason/bin/codelldb",
+    -- command = "/home/cowboy/Downloads/codelldb-linux-x64/extension/adapter/codelldb",
+    args = { "--port", "${port}" },
+  },
+}
 
 dap.configurations.rust = {
   {
@@ -165,7 +218,7 @@ dap.configurations.rust = {
       if last_args == "" then
         return {}
       end
-      return vim.split(input, "%s+")
+      return parseArgs(last_args)
     end,
     cwd = "${workspaceFolder}",
   },
@@ -223,14 +276,5 @@ dap.configurations.rust = {
     end,
     cwd = "${workspaceFolder}",
     stopOnEntry = false,
-  },
-}
-
-dap.adapters.codelldb = {
-  type = "server",
-  port = "${port}",
-  executable = {
-    command = "codelldb", -- make sure it's in PATH
-    args = { "--port", "${port}" },
   },
 }
