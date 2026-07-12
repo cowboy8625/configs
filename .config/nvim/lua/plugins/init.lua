@@ -17,7 +17,6 @@ require("plugins.telescope")
 require("plugins.debugger.init")
 if not IS_OS("Windows") then
   require("plugins.treesitter")
-  require("plugins.copilot")
 end
 require("plugins.conform")
 

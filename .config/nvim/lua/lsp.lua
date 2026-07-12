@@ -38,6 +38,7 @@ vim.lsp.config("lua_ls", {
         globals = {
           "vim",
           "require",
+          "love",
         },
       },
       workspace = {
@@ -45,6 +46,16 @@ vim.lsp.config("lua_ls", {
       },
       telemetry = {
         enable = false,
+      },
+    },
+  },
+})
+
+vim.lsp.config("rust_analyzer", {
+  settings = {
+    ["rust-analyzer"] = {
+      diagnostics = {
+        disabled = { "inactive-code" },
       },
     },
   },
