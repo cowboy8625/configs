@@ -14,6 +14,7 @@ require("plugins.init")
 
 -- TODO: Add todo highlighing
 -- TODO: Add moving window around
+-- TODO: tmux and nvim move windows with ^jkhl
 -- TODO: Debugging workspace binarys do not work
 -- TODO: Add surround or mini
 -- TODO: Add plugin to find all breakpoints in telescope

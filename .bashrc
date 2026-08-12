@@ -140,6 +140,96 @@ function pplay() {
     fi
 }
 
+mcplay() {
+    # Usage: mcplay [base_dir] [extra_mpv_args...]
+    # base_dir = the folder that contains "assets/" (defaults to ~/.minecraft)
+    local BASE="${1:-$HOME/.minecraft}"
+    local ASSETS="$BASE/assets"
+    local INDEXES="$ASSETS/indexes"
+    local OBJECTS="$ASSETS/objects"
+    local TMP="/tmp/mcplay_$$"
+    shift  # remaining args go to mpv
+
+    if [[ ! -d "$INDEXES" ]]; then
+        echo "Error: No assets/indexes found at $INDEXES"
+        echo "Pass the directory that contains the 'assets' folder."
+        return 1
+    fi
+
+    # ── 1. Select index / version ──────────────────────────────────────────
+    local INDEX_NAME
+    if [[ "$TERM_PROGRAM" == "tmux" ]]; then
+        tmux display-popup -E "find '$INDEXES' -maxdepth 1 -name '*.json' -printf '%f\n' | sort -V | fzf --prompt='Select index/version: ' --height=40% > $TMP"
+        INDEX_NAME=$(cat "$TMP" 2>/dev/null)
+    else
+        INDEX_NAME=$(find "$INDEXES" -maxdepth 1 -name '*.json' -printf '%f\n' | sort -V | fzf --prompt="Select index/version: " --height=40%)
+    fi
+
+    if [[ -z "$INDEX_NAME" ]]; then
+        echo "No index selected."
+        rm -f "$TMP"
+        return 1
+    fi
+
+    local INDEX_PATH="$INDEXES/$INDEX_NAME"
+
+    # ── 2. Extract music entries and select one ────────────────────────────
+    # Pretty name = strip common prefixes + .ogg
+    local SELECTION
+    if [[ "$TERM_PROGRAM" == "tmux" ]]; then
+        tmux display-popup -E "
+            jq -r '
+                .objects // {} | to_entries[] |
+                select(.key | test(\"(music|records)/.*\\\\.ogg$\"; \"i\")) |
+                (
+                    .key
+                    | sub(\"^minecraft/sounds/music/\"; \"\")
+                    | sub(\"^sounds/music/\"; \"\")
+                    | sub(\"^minecraft/sounds/records/\"; \"records/\")
+                    | sub(\"^sounds/records/\"; \"records/\")
+                    | sub(\"\\\\.ogg$\"; \"\")
+                ) + \"\t\" + .value.hash
+            ' '$INDEX_PATH' | sort | fzf --prompt='Select track: ' --with-nth=1 --delimiter=\$'\t' --height=60% > $TMP
+        "
+        SELECTION=$(cat "$TMP" 2>/dev/null)
+    else
+        SELECTION=$(jq -r '
+            .objects // {} | to_entries[] |
+            select(.key | test("(music|records)/.*\\.ogg$"; "i")) |
+            (
+                .key
+                | sub("^minecraft/sounds/music/"; "")
+                | sub("^sounds/music/"; "")
+                | sub("^minecraft/sounds/records/"; "records/")
+                | sub("^sounds/records/"; "records/")
+                | sub("\\.ogg$"; "")
+            ) + "\t" + .value.hash
+        ' "$INDEX_PATH" | sort | fzf --prompt="Select track: " --with-nth=1 --delimiter=$'\t' --height=60%)
+    fi
+
+    rm -f "$TMP"
+
+    if [[ -z "$SELECTION" ]]; then
+        echo "No track selected."
+        return 1
+    fi
+
+    local TRACK_NAME HASH
+    TRACK_NAME=$(echo "$SELECTION" | cut -f1)
+    HASH=$(echo "$SELECTION" | cut -f2)
+
+    local TRACK_PATH="$OBJECTS/${HASH:0:2}/$HASH"
+
+    if [[ ! -f "$TRACK_PATH" ]]; then
+        echo "Error: hashed file not found → $TRACK_PATH"
+        echo "(The object may not have been downloaded yet – launch that version once.)"
+        return 1
+    fi
+
+    echo "▶  $TRACK_NAME  ($HASH)"
+    mpv --af=lavfi=[afade=t=in:ss=0:d=5] --loop "$TRACK_PATH" "$@"
+}
+
 function image-size() {
     if [ $# -ne 1 ]; then
         echo "Usage: image-size <image>"
@@ -307,6 +397,7 @@ alias mirror="xrandr --output DP-4 --same-as HDMI-0";
 alias mirror-off="xrandr --output DP-4 --right-of HDMI-0";
 alias get-image-dim="ffmpeg -i image.jpg 2>&1 | grep 'Stream' | grep -oP '\d+x\d+'";
 alias oviwrite="NVIM_APPNAME=oviwrite nvim";
+alias restart-audio="systemctl --user restart pipewire pipewire-pulse wireplumber";
 
 
 # Set Editor

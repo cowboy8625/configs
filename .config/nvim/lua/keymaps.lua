@@ -42,6 +42,10 @@ vim.keymap.set("v", "<A-k>", ":m '<-2<CR>gv=gv", { desc = "Move selection up" })
 vim.keymap.set("v", "<", "<gv", { desc = "Indent left and reselect" })
 vim.keymap.set("v", ">", ">gv", { desc = "Indent right and reselect" })
 
+-- Move by line reguardless of wrapping
+vim.keymap.set("n", "j", "gj", {})
+vim.keymap.set("n", "k", "gk", {})
+
 -- Quick file navigation
 vim.g.netrw_banner = 0 -- Disable the Explore Banner
 -- use of oil.nvim for file explore

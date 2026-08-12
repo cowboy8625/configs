@@ -72,6 +72,10 @@
       "rev": "d1cfc4986195239cac55700b675cea7a9578d430",
       "src": "https://github.com/NeogitOrg/neogit"
     },
+    "neoscroll.nvim": {
+      "rev": "c8d29979cb0cb3a2437a8e0ae683fd82f340d3b8",
+      "src": "https://github.com/karb94/neoscroll.nvim"
+    },
     "nvim-dap": {
       "rev": "45a69eba683a2c448dd9ecfc4de89511f0646b5f",
       "src": "https://github.com/mfussenegger/nvim-dap"

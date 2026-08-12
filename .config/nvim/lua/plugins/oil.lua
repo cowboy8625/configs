@@ -1,15 +1,16 @@
 vim.api.nvim_create_autocmd("BufWritePre", {
-  callback = function(info)
-    if info.match == "oil" then
+  group = vim.api.nvim_create_augroup("auto_create_dir", { clear = true }),
+  callback = function(event)
+    local file = vim.uv.fs_realpath(event.match)
+
+    if not file then
       return
     end
-    if vim.tbl_contains({ "oil" }, vim.bo.ft) then
-      return
-    end
-    local dir = vim.fn.expand("<afile>:p:h")
-    if vim.fn.isdirectory(dir) == 0 then
-      vim.fn.mkdir(dir, "p")
-    end
+
+    vim.fn.mkdir(vim.fn.fnamemodify(file, ":p:h"), "p")
+    local backup = vim.fn.fnamemodify(file, ":p:~:h")
+    backup = backup:gsub("[/\\]", "%%")
+    vim.go.backupext = backup
   end,
 })
 
